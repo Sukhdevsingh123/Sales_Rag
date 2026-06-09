@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests 
+python-dotenv  
+pypdfium2
+PyPDF2
+easyocr
+pillow
+python-multipart
+pandas

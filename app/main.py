@@ -2,15 +2,20 @@ from pathlib import Path
 import json
 import logging
 
-from fastapi import FastAPI, UploadFile, File
+from fastapi import FastAPI, UploadFile, File, Query
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.extractor import (
-    extract_text_pypdf,
-    extract_text_easyocr
+    extract_pdf_content,
+    extract_tables
 )
 
-from app.cleaner import clean_text
+from app.cleaner import (
+    clean_text,
+    remove_repeated_lines
+)
+
+from app.normalizer import normalize_content
 
 app = FastAPI()
 
@@ -27,7 +32,6 @@ logger = logging.getLogger(__name__)
 
 INPUT_DIR = Path("input")
 OUTPUT_DIR = Path("output")
-
 INPUT_DIR.mkdir(exist_ok=True)
 OUTPUT_DIR.mkdir(exist_ok=True)
 
@@ -42,60 +46,85 @@ def home():
 
 @app.post("/upload")
 async def upload_pdf(
-    file: UploadFile = File(...)
+    file: UploadFile = File(...),
+    skip_images: bool = Query(
+        default=False,
+        description="Skip VLM image captioning for faster processing"
+    )
 ):
+    logger.info(f"Received File: {file.filename} | skip_images={skip_images}")
 
-    logger.info(f"Received File: {file.filename}")
-
+    # ── Save uploaded file ──
     file_path = INPUT_DIR / file.filename
-
     with open(file_path, "wb") as f:
         f.write(await file.read())
 
-    logger.info("File Saved Successfully")
+    image_dir = OUTPUT_DIR / f"{file_path.stem}_images"
 
-    text = extract_text_pypdf(file_path)
+    # ── Extract content ──
+    content = await extract_pdf_content(
+        str(file_path),
+        str(image_dir),
+        skip_images=skip_images
+    )
 
-    extraction_method = "pypdf"
+    tables = extract_tables(str(file_path))
 
-    if len(text.strip()) < 100:
+    # ── Clean text pages ──
+    text_pages = [
+        item["content"]
+        for item in content
+        if item["type"] == "text"
+    ]
 
-        logger.info(
-            "Digital extraction failed. Starting OCR..."
-        )
+    cleaned_pages = remove_repeated_lines(text_pages)
 
-        text = extract_text_easyocr(file_path)
+    cleaned_content = []
+    text_idx = 0
 
-        extraction_method = "easyocr"
+    for item in content:
+        if item["type"] == "text":
+            item["content"] = clean_text(cleaned_pages[text_idx])
+            text_idx += 1
+        cleaned_content.append(item)
 
-    cleaned_text = clean_text(text)
+    cleaned_content.extend(tables)
 
+    # ── Build output ──
     output = {
         "file_name": file.filename,
-        "extraction_method": extraction_method,
-        "text": cleaned_text
+        "total_pages": len(text_pages),
+        "skip_images": skip_images,
+        "content": cleaned_content
     }
 
-    output_file = (
-        OUTPUT_DIR /
-        f"{file_path.stem}.json"
-    )
+    # ── Normalize for RAG chunking ──
+    normalized_docs = normalize_content(output)
 
-    with open(
-        output_file,
-        "w",
-        encoding="utf-8"
-    ) as f:
+    print(
+    [
+        x["source_type"]
+        for x in normalized_docs
+    ]
+)
 
-        json.dump(
-            output,
-            f,
-            indent=4,
-            ensure_ascii=False
-        )
+    # ── Save JSON files ──
+    output_file = OUTPUT_DIR / f"{file_path.stem}.json"
+    normalized_file = OUTPUT_DIR / f"{file_path.stem}_normalized.json"
 
-    logger.info(
-        f"Output Saved: {output_file}"
-    )
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=4, ensure_ascii=False)
 
-    return output
+    with open(normalized_file, "w", encoding="utf-8") as f:
+        json.dump(normalized_docs, f, indent=4, ensure_ascii=False)
+
+    logger.info(f"Raw Output: {output_file}")
+    logger.info(f"Normalized Output: {normalized_file} — {len(normalized_docs)} chunks")
+
+    return {
+        "file_name": file.filename,
+        "total_pages": len(text_pages),
+        "total_chunks": len(normalized_docs),
+        "skip_images": skip_images,
+        "content": cleaned_content
+    }

@@ -1,10 +1,15 @@
 from pydantic import BaseModel
+from typing import List, Dict, Any
 
 
-class ExtractionResponse(BaseModel):
+class ExtractionResponse(
+    BaseModel
+):
 
     file_name: str
 
-    extraction_method: str
+    total_pages: int
 
-    text: str
+    content: List[
+        Dict[str, Any]
+    ]

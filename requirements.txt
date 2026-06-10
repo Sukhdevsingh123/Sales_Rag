@@ -8,3 +8,5 @@ easyocr
 pillow
 python-multipart
 pandas
+httpx
+tabulate

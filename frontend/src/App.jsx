@@ -21,7 +21,7 @@ function App() {
       formData.append("file", file);
 
       const response = await fetch(
-        "http://127.0.0.1:9000/upload",
+        "http://192.168.11.57:9000/upload",
         {
           method: "POST",
           body: formData,

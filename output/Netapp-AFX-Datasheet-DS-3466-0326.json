@@ -1,0 +1,906 @@
+{
+    "file_name": "Netapp-AFX-Datasheet-DS-3466-0326.pdf",
+    "total_pages": 4,
+    "skip_images": false,
+    "content": [
+        {
+            "page": 1,
+            "section": "AFX",
+            "type": "text",
+            "layout": [
+                {
+                    "bbox": [
+                        30.43199920654297,
+                        25.963773727416992,
+                        79.2384033203125,
+                        42.739776611328125
+                    ],
+                    "block_type": "heading",
+                    "content": "DATASHEET"
+                },
+                {
+                    "bbox": [
+                        29.8799991607666,
+                        57.86751937866211,
+                        179.42762756347656,
+                        108.19551849365234
+                    ],
+                    "block_type": "heading",
+                    "content": "NETAPP AFX"
+                },
+                {
+                    "bbox": [
+                        30.61440086364746,
+                        109.55982208251953,
+                        273.3912353515625,
+                        146.00180053710938
+                    ],
+                    "block_type": "body",
+                    "content": "Intelligent data infrastructure built for the \nAI-powered enterprise"
+                },
+                {
+                    "bbox": [
+                        30.166400909423828,
+                        441.83575439453125,
+                        423.1255187988281,
+                        477.91375732421875
+                    ],
+                    "block_type": "body",
+                    "content": "Accelerate AI outcomes with high‑performance, ultrascalable, \ndisaggregated storage powered by enterprise‑proven NetApp ONTAP"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        494.5257873535156,
+                        295.0658264160156,
+                        651.4047241210938
+                    ],
+                    "block_type": "body",
+                    "content": "AI is now an enterprise workload\nAI is no longer experimental. It is now an enterprise \nworkload, standing alongside virtualization, databases, \nand other mission-critical systems. Like these workloads, \nAI demands enterprise-grade capabilities such as \ndata protection, quality of service, resilience, and high \navailability. But unlike traditional workloads, AI requires agile \nscalability, ultra-high throughput, performance to support \ndynamic, and data-intensive pipelines that power real-time \ninference and model training. Agentic AI only exacerbates \nthe issue, requiring deep integration and connectivity with \nenterprise systems to automate core functions and deliver \nROI."
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        662.4927368164062,
+                        254.06373596191406,
+                        687.4047241210938
+                    ],
+                    "block_type": "body",
+                    "content": "Enterprises face critical infrastructure barriers to \noperationalizing AI:"
+                },
+                {
+                    "bbox": [
+                        30.599998474121094,
+                        691.03173828125,
+                        271.7109069824219,
+                        715.8987426757812
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Legacy storage architectures can’t scale to meet the \nhigh-performance demands of modern AI workflows."
+                },
+                {
+                    "bbox": [
+                        318.5909729003906,
+                        494.5257568359375,
+                        566.9825439453125,
+                        531.3897705078125
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Fragmented point solutions introduce silos, lack \nenterprise-grade security and resilience, and increase \noperational complexity."
+                },
+                {
+                    "bbox": [
+                        318.5820007324219,
+                        535.0167846679688,
+                        574.596923828125,
+                        571.8807373046875
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Hybrid cloud and data mobility challenges disrupt AI \npipelines, making it harder to move, manage, and curate \ndata across environments."
+                },
+                {
+                    "bbox": [
+                        318.572998046875,
+                        582.9686889648438,
+                        580.7562866210938,
+                        703.8567504882812
+                    ],
+                    "block_type": "body",
+                    "content": "NetApp AFX is disaggregated storage built for the  \nAI-powered enterprise\nNetApp® AFX combines extreme performance and scale \nwith the reliability of enterprise-proven NetApp ONTAP® \nsoftware.  AFX is built on ONTAP, benefiting from over three \ndecades of world-class software and hardware engineering \nwith enterprise-proven data management and security. \nBecause it is ONTAP, AFX integrates seamlessly into your \nenterprise data estate and delivers granular, policy-based \nsecurity so that AI accesses only the data you intend."
+                },
+                {
+                    "bbox": [
+                        520.515869140625,
+                        765.7191772460938,
+                        581.0709228515625,
+                        773.5841674804688
+                    ],
+                    "block_type": "heading",
+                    "content": "1\nNetApp Datasheet"
+                }
+            ],
+            "content": "NETAPP AFX Intelligent data infrastructure built for the Accelerate AI outcomes with high‑performance, ultrascalable, disaggregated storage powered by enterprise‑proven NetApp ONTAP AI is now an enterprise workload AI is no longer experimental. It is now an enterprise workload, standing alongside virtualization, databases, and other mission-critical systems. Like these workloads, AI demands enterprise-grade capabilities such as data protection, quality of service, resilience, and high availability. But unlike traditional workloads, AI requires agile scalability, ultra-high throughput, performance to support dynamic, and data-intensive pipelines that power real-time inference and model training. Agentic AI only exacerbates the issue, requiring deep integration and connectivity with enterprise systems to automate core functions and deliver ROI. Enterprises face critical infrastructure barriers to operationalizing AI: • Legacy storage architectures can’t scale to meet the high-performance demands of modern AI workflows. • Fragmented point solutions introduce silos, lack enterprise-grade security and resilience, and increase operational complexity. • Hybrid cloud and data mobility challenges disrupt AI pipelines, making it harder to move, manage, and curate data across environments. NetApp AFX is disaggregated storage built for the NetApp® AFX combines extreme performance and scale with the reliability of enterprise-proven NetApp ONTAP® software. AFX is built on ONTAP, benefiting from over three decades of world-class software and hardware engineering with enterprise-proven data management and security. Because it is ONTAP, AFX integrates seamlessly into your enterprise data estate and delivers granular, policy-based security so that AI accesses only the data you intend. 1"
+        },
+        {
+            "page": 2,
+            "section": "KEY BENEFITS",
+            "type": "text",
+            "layout": [
+                {
+                    "bbox": [
+                        520.5162963867188,
+                        765.7191772460938,
+                        581.2142944335938,
+                        773.5841674804688
+                    ],
+                    "block_type": "heading",
+                    "content": "2\nNetApp Datasheet"
+                },
+                {
+                    "bbox": [
+                        30.100000381469727,
+                        42.581817626953125,
+                        293.5588073730469,
+                        163.4698944091797
+                    ],
+                    "block_type": "body",
+                    "content": "A revolutionary architecture delivered on  \nenterprise-proven ONTAP\nKey to the high performance and scalability of AFX is its \ninnovative disaggregated architecture. The compute layer \nthat handles data management and serves I/O is decoupled \nfrom the capacity layer of high-performance NVMe Flash \nstorage. This design allows customers to scale performance \nand capacity independently. Add storage controllers to \nboost performance and storage enclosures to expand \ncapacity, all with linear gains"
+                },
+                {
+                    "bbox": [
+                        30.100000381469727,
+                        174.60289001464844,
+                        294.84942626953125,
+                        271.45196533203125
+                    ],
+                    "block_type": "body",
+                    "content": "This flexibility means that customers can optimize their \ninfrastructure to meet their unique workload requirements \nwithout overprovisioning. Built for non-stop operations \nmeans upgrades and expansions are simple sparing you \nthe outages and downtime required by parallel file system \nsolutions. And because AFX is built on ONTAP, it delivers the \nsame best-in-class security and ease of use that enterprise \ncustomers demand."
+                },
+                {
+                    "bbox": [
+                        30.100000381469727,
+                        282.5399475097656,
+                        262.1982727050781,
+                        355.44000244140625
+                    ],
+                    "block_type": "body",
+                    "content": "Extreme performance, standard protocols,  \nseamless integration\nNetApp AFX delivers all the performance benefits of  \nparallel file systems and niche AI storage solutions,  \nbut on an enterprise-grade platform that is simple,  \nsecure, and fully integrated."
+                },
+                {
+                    "bbox": [
+                        30.100006103515625,
+                        366.572998046875,
+                        287.8852233886719,
+                        451.425048828125
+                    ],
+                    "block_type": "body",
+                    "content": "Unlike solutions that require proprietary file system clients, \nAFX uses standard file and object protocols, including \nparallel NFS (pNFS) for extreme performance and AWS \nS3-compatible object storage for flexibility. This integrated \nplatform means that all of your applications can use AFX \nwithout installing custom clients that introduce instability, \nsecurity risks, or operational complexity."
+                },
+                {
+                    "bbox": [
+                        30.100006103515625,
+                        462.5130310058594,
+                        113.3203125,
+                        475.4100341796875
+                    ],
+                    "block_type": "heading",
+                    "content": "With AFX, you get:"
+                },
+                {
+                    "bbox": [
+                        30.100006103515625,
+                        479.0550537109375,
+                        269.7015686035156,
+                        515.9190673828125
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Enterprise-grade simplicity. No proprietary clients,  \nno fragile integrations, just standard protocols and a \nsingle pool of exascale capable storage."
+                },
+                {
+                    "bbox": [
+                        30.10000228881836,
+                        519.5460815429688,
+                        282.2989501953125,
+                        556.4100952148438
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Performance without trade-offs. Parallel NFS delivers  \nthe throughput that AI workloads demand while \nmaintaining compatibility and eliminating complexity."
+                },
+                {
+                    "bbox": [
+                        30.10000991821289,
+                        560.0370483398438,
+                        272.527587890625,
+                        632.8920288085938
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Hybrid cloud readiness. Only NetApp delivers native \nONTAP integrations across every major cloud giving \nyou ultraefficient data access and mobility across \non-premises and cloud environments with NetApp \nSnapMirror® replication and intelligent caching via \nFlexCache®."
+                },
+                {
+                    "bbox": [
+                        318.5320129394531,
+                        374.43902587890625,
+                        582.1203002929688,
+                        471.3330993652344
+                    ],
+                    "block_type": "body",
+                    "content": "Operationalize AI with NetApp AI Data Engine\nAccelerate AI pipelines by consolidating fragmented tools \ninto a unified, ONTAP-integrated solution with real-time \nmetadata, inline vectorization, and semantic search. NetApp \nAI Data Engine delivers a global, current view of your data \nestate, enabling fast, precise curation, deep integration with \nleading AI platforms, and built-in governance for secure, \ncompliant AI operations."
+                },
+                {
+                    "bbox": [
+                        318.5320129394531,
+                        482.42108154296875,
+                        582.4090576171875,
+                        663.2940673828125
+                    ],
+                    "block_type": "body",
+                    "content": "Kickstart AI with NetApp Keystone STaaS \nKeystone STaaS for Enterprise AI removes barriers to AI \nadoption by eliminating upfront capital costs and simplifying \ndeployment. Delivered as a single, consumption-based \nsubscription and powered by NetApp AFX and AIDE, \nit enables AI-optimized performance and independent \ncapacity scaling on demand. Predictable billing allows \nusage adjustments and burst capacity at no extra cost, \nwhile pay-as-you-go pricing aligns expenses with workload \ndemand. Integrated management via NetApp Console \nand DII automate operations (so your staff can focus on \nbusiness innovation), and built-in cyber resilience provides \nadvanced threat detection and ransomware protection to \nempower enterprises to operationalize AI quickly, securely, \nand cost-effectively."
+                },
+                {
+                    "bbox": [
+                        331.52801513671875,
+                        53.16508102416992,
+                        410.59820556640625,
+                        68.9280776977539
+                    ],
+                    "block_type": "heading",
+                    "content": "KEY BENEFITS"
+                },
+                {
+                    "bbox": [
+                        333.2879943847656,
+                        83.98178100585938,
+                        549.7764282226562,
+                        120.89080047607422
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Validated for NVIDIA DGX SuperPOD. Built on \nONTAP. Get the speed, scale, and resilience \nneeded for enterprise AI - without compromise."
+                },
+                {
+                    "bbox": [
+                        333.2879943847656,
+                        128.79281616210938,
+                        566.86767578125,
+                        165.7018280029297
+                    ],
+                    "block_type": "body",
+                    "content": "•\t AI performance and enterprise proven \ncapabilities empowers your team to operationalize \nAI without retraining"
+                },
+                {
+                    "bbox": [
+                        333.2879943847656,
+                        173.60385131835938,
+                        566.3331909179688,
+                        210.5128631591797
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Storage simplicity plus enterprise resilience with \nthe AFX architecture that delivers space efficiency \nand high performance."
+                },
+                {
+                    "bbox": [
+                        333.28802490234375,
+                        218.41488647460938,
+                        562.7700805664062,
+                        255.3238983154297
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Find and curate precise data sets with an always-\nup-to-date index that doesn’t impact primary \nworkload performance."
+                },
+                {
+                    "bbox": [
+                        333.28802490234375,
+                        263.2259216308594,
+                        569.206787109375,
+                        312.1319580078125
+                    ],
+                    "block_type": "body",
+                    "content": "•\t The most secure storage on the planet. Safeguard \nsensitive data with secure multi-tenancy while \noptimizing resources with granular QoS for \ncompliant and responsible AI."
+                }
+            ],
+            "content": "A revolutionary architecture delivered on enterprise-proven ONTAP Key to the high performance and scalability of AFX is its innovative disaggregated architecture. The compute layer that handles data management and serves I/O is decoupled from the capacity layer of high-performance NVMe Flash storage. This design allows customers to scale performance and capacity independently. Add storage controllers to boost performance and storage enclosures to expand capacity, all with linear gains This flexibility means that customers can optimize their infrastructure to meet their unique workload requirements without overprovisioning. Built for non-stop operations means upgrades and expansions are simple sparing you the outages and downtime required by parallel file system solutions. And because AFX is built on ONTAP, it delivers the same best-in-class security and ease of use that enterprise customers demand. Extreme performance, standard protocols, seamless integration NetApp AFX delivers all the performance benefits of parallel file systems and niche AI storage solutions, but on an enterprise-grade platform that is simple, secure, and fully integrated. Unlike solutions that require proprietary file system clients, AFX uses standard file and object protocols, including parallel NFS (pNFS) for extreme performance and AWS S3-compatible object storage for flexibility. This integrated platform means that all of your applications can use AFX without installing custom clients that introduce instability, security risks, or operational complexity. With AFX, you get: • Enterprise-grade simplicity. No proprietary clients, no fragile integrations, just standard protocols and a single pool of exascale capable storage. • Performance without trade-offs. Parallel NFS delivers the throughput that AI workloads demand while maintaining compatibility and eliminating complexity. • Hybrid cloud readiness. Only NetApp delivers native ONTAP integrations across every major cloud giving you ultraefficient data access and mobility across on-premises and cloud environments with NetApp SnapMirror® replication and intelligent caching via FlexCache®. Operationalize AI with NetApp AI Data Engine Accelerate AI pipelines by consolidating fragmented tools into a unified, ONTAP-integrated solution with real-time metadata, inline vectorization, and semantic search. NetApp AI Data Engine delivers a global, current view of your data estate, enabling fast, precise curation, deep integration with leading AI platforms, and built-in governance for secure, compliant AI operations. Kickstart AI with NetApp Keystone STaaS Keystone STaaS for Enterprise AI removes barriers to AI adoption by eliminating upfront capital costs and simplifying deployment. Delivered as a single, consumption-based subscription and powered by NetApp AFX and AIDE, it enables AI-optimized performance and independent capacity scaling on demand. Predictable billing allows usage adjustments and burst capacity at no extra cost, while pay-as-you-go pricing aligns expenses with workload demand. Integrated management via NetApp Console and DII automate operations (so your staff can focus on business innovation), and built-in cyber resilience provides advanced threat detection and ransomware protection to empower enterprises to operationalize AI quickly, securely, and cost-effectively. KEY BENEFITS • Validated for NVIDIA DGX SuperPOD. Built on ONTAP. Get the speed, scale, and resilience needed for enterprise AI - without compromise. • AI performance and enterprise proven capabilities empowers your team to operationalize AI without retraining • Storage simplicity plus enterprise resilience with the AFX architecture that delivers space efficiency and high performance. • Find and curate precise data sets with an always- up-to-date index that doesn’t impact primary workload performance. • The most secure storage on the planet. Safeguard sensitive data with secure multi-tenancy while optimizing resources with granular QoS for compliant and responsible AI."
+        },
+        {
+            "page": 3,
+            "section": "AFX components",
+            "type": "text",
+            "layout": [
+                {
+                    "bbox": [
+                        520.5151977539062,
+                        765.7191772460938,
+                        581.0592041015625,
+                        773.5841674804688
+                    ],
+                    "block_type": "heading",
+                    "content": "3\nNetApp Datasheet"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        189.039794921875,
+                        131.44200134277344,
+                        208.48580932617188
+                    ],
+                    "block_type": "heading",
+                    "content": "AFX components"
+                },
+                {
+                    "bbox": [
+                        30.100000381469727,
+                        281.02178955078125,
+                        283.3455810546875,
+                        329.9278259277344
+                    ],
+                    "block_type": "body",
+                    "content": "AFX 1K storage controller\nBuilt on NetApp engineered hardware, the AFX 1K storage \ncontroller delivers extreme performance in a resilient and \neasily serviced form factor."
+                },
+                {
+                    "bbox": [
+                        319.2790222167969,
+                        281.0128173828125,
+                        579.9306640625,
+                        329.9188537597656
+                    ],
+                    "block_type": "body",
+                    "content": "NX224 NVMe enclosure\nThe NX224 NVMe enclosure provides ultrafast, low-latency \nstorage for AI datasets. Customers can add enclosures to \nscale capacity seamlessly as data volumes grow."
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        174.5192108154297,
+                        401.6951599121094,
+                        184.52920532226562
+                    ],
+                    "block_type": "body",
+                    "content": "Fig. 1: NetApp AFX deployment consists of AFX 1K storage controllers and NX224 NVMe storage enclosures."
+                },
+                {
+                    "bbox": [
+                        38.724998474121094,
+                        371.4726867675781,
+                        102.26758575439453,
+                        387.2356872558594
+                    ],
+                    "block_type": "heading",
+                    "content": "AFX cluster"
+                },
+                {
+                    "bbox": [
+                        38.72100067138672,
+                        395.66778564453125,
+                        246.6300048828125,
+                        408.5378112792969
+                    ],
+                    "block_type": "heading",
+                    "content": "Maximum storage controllers  \n128"
+                },
+                {
+                    "bbox": [
+                        38.72100830078125,
+                        415.58477783203125,
+                        242.6070098876953,
+                        428.4548034667969
+                    ],
+                    "block_type": "heading",
+                    "content": "Maximum storage enclosures\n52"
+                },
+                {
+                    "bbox": [
+                        38.72100830078125,
+                        435.50177001953125,
+                        255.2808074951172,
+                        448.3717956542969
+                    ],
+                    "block_type": "heading",
+                    "content": "Maximum effective capacity  \n1+ EB"
+                },
+                {
+                    "bbox": [
+                        38.72100830078125,
+                        455.41876220703125,
+                        241.4550018310547,
+                        468.2887878417969
+                    ],
+                    "block_type": "heading",
+                    "content": "Maximum data compute nodes\n10"
+                },
+                {
+                    "bbox": [
+                        38.72100830078125,
+                        475.33575439453125,
+                        372.2988586425781,
+                        488.2057800292969
+                    ],
+                    "block_type": "body",
+                    "content": "Supported storage protocols\npNFS, NFS, SMB, S3, NFS/RDMA"
+                },
+                {
+                    "bbox": [
+                        30.100000381469727,
+                        343.23980712890625,
+                        194.09605407714844,
+                        362.6858215332031
+                    ],
+                    "block_type": "heading",
+                    "content": "AFX technical specifications"
+                },
+                {
+                    "bbox": [
+                        38.724998474121094,
+                        517.4837036132812,
+                        177.2710723876953,
+                        533.2467041015625
+                    ],
+                    "block_type": "heading",
+                    "content": "AFX 1K storage controller"
+                },
+                {
+                    "bbox": [
+                        38.72100067138672,
+                        541.6788940429688,
+                        244.01100158691406,
+                        554.5488891601562
+                    ],
+                    "block_type": "heading",
+                    "content": "Controller form factor\n2U"
+                },
+                {
+                    "bbox": [
+                        38.72100830078125,
+                        561.5958862304688,
+                        298.8993225097656,
+                        574.4658813476562
+                    ],
+                    "block_type": "body",
+                    "content": "PCIe expansion slots\n11 (9 + NVRAM)"
+                },
+                {
+                    "bbox": [
+                        38.72100830078125,
+                        581.5128784179688,
+                        237.72900390625,
+                        605.3809204101562
+                    ],
+                    "block_type": "body",
+                    "content": "X50131B —\n2p, 100G/200G/400G Ethernet\n4"
+                },
+                {
+                    "bbox": [
+                        38.72100830078125,
+                        612.4279174804688,
+                        187.45411682128906,
+                        661.2888793945312
+                    ],
+                    "block_type": "body",
+                    "content": "X50130B —\nX50130B —\n2p, 40G/100G Ethernet controller\n100GbE ports (40Gbe autoranging)"
+                },
+                {
+                    "bbox": [
+                        38.72100830078125,
+                        668.3358764648438,
+                        173.44107055664062,
+                        705.1998901367188
+                    ],
+                    "block_type": "body",
+                    "content": "X50133A — \n4p, 10G/25G Ethernet controller\n10GBASE-T (1Gbe autoranging)"
+                },
+                {
+                    "bbox": [
+                        38.72100830078125,
+                        712.2379150390625,
+                        317.9496154785156,
+                        725.10791015625
+                    ],
+                    "block_type": "body",
+                    "content": "OS version\nONTAP 9.17.1 or later"
+                },
+                {
+                    "bbox": [
+                        38.72100830078125,
+                        732.1549072265625,
+                        348.8662414550781,
+                        757.0219116210938
+                    ],
+                    "block_type": "body",
+                    "content": "Power consumption (median or typical) \nVoltage - 200 (200 to 240) \nAmps - 6.48 Typical"
+                }
+            ],
+            "content": "AFX components Built on NetApp engineered hardware, the AFX 1K storage controller delivers extreme performance in a resilient and easily serviced form factor. NX224 NVMe enclosure The NX224 NVMe enclosure provides ultrafast, low-latency storage for AI datasets. Customers can add enclosures to scale capacity seamlessly as data volumes grow. Fig. 1: NetApp AFX deployment consists of AFX 1K storage controllers and NX224 NVMe storage enclosures. AFX cluster Maximum storage controllers Maximum storage enclosures Maximum effective capacity 1+ EB Maximum data compute nodes Supported storage protocols pNFS, NFS, SMB, S3, NFS/RDMA AFX technical specifications Controller form factor PCIe expansion slots (9 + NVRAM) X50131B - 2p, 100G/200G/400G Ethernet 2p, 40G/100G Ethernet controller 100GbE ports (40Gbe autoranging) X50133A - 4p, 10G/25G Ethernet controller 10GBASE-T (1Gbe autoranging) Power consumption (median or typical) Voltage - 200 (200 to 240) Amps - 6.48 Typical"
+        },
+        {
+            "page": 4,
+            "section": "NX224 storage enclosure",
+            "type": "text",
+            "layout": [
+                {
+                    "bbox": [
+                        29.600000381469727,
+                        663.2267456054688,
+                        77.79769897460938,
+                        676.0967407226562
+                    ],
+                    "block_type": "heading",
+                    "content": "Contact Us"
+                },
+                {
+                    "bbox": [
+                        197.0919952392578,
+                        747.2214965820312,
+                        567.5446166992188,
+                        761.3714599609375
+                    ],
+                    "block_type": "body",
+                    "content": "NETAPP, the NETAPP logo, and the marks listed at http://www.netapp.com/TM are trademarks of NetApp, Inc. Other company and product names may \nbe trademarks of their respective owners."
+                },
+                {
+                    "bbox": [
+                        197.0919952392578,
+                        632.894287109375,
+                        240.42822265625,
+                        641.4922485351562
+                    ],
+                    "block_type": "heading",
+                    "content": "About NetApp"
+                },
+                {
+                    "bbox": [
+                        197.0919952392578,
+                        644.4723510742188,
+                        572.7362670898438,
+                        651.622314453125
+                    ],
+                    "block_type": "body",
+                    "content": "For more than three decades, NetApp has helped the world’s leading organizations navigate change – from the rise of enterprise storage to the intelligent era"
+                },
+                {
+                    "bbox": [
+                        197.0919952392578,
+                        653.4723510742188,
+                        565.029296875,
+                        660.622314453125
+                    ],
+                    "block_type": "body",
+                    "content": "defined by data and AI. Today, NetApp is the Intelligent Data Infrastructure company, helping customers turn data into a catalyst for innovation, resilience,"
+                },
+                {
+                    "bbox": [
+                        197.0919952392578,
+                        662.4723510742188,
+                        569.2293701171875,
+                        669.622314453125
+                    ],
+                    "block_type": "body",
+                    "content": "and growth. At the heart of that infrastructure is the NetApp data platform – the unified, enterprise-grade, intelligent foundation that connects, protects, and"
+                },
+                {
+                    "bbox": [
+                        197.0919952392578,
+                        671.4723510742188,
+                        581.6142578125,
+                        678.622314453125
+                    ],
+                    "block_type": "body",
+                    "content": "activates data across every cloud, workload, and environment. Built on the proven power of NetApp ONTAP, our leading data management software and OS, and"
+                },
+                {
+                    "bbox": [
+                        197.0919952392578,
+                        680.4723510742188,
+                        580.895263671875,
+                        687.622314453125
+                    ],
+                    "block_type": "body",
+                    "content": "enhanced by automation through the AI Data Engine and AFX, it delivers observability, resilience, and intelligence at scale. Disaggregated by design, the NetApp"
+                },
+                {
+                    "bbox": [
+                        197.0919952392578,
+                        689.4723510742188,
+                        580.7138061523438,
+                        696.622314453125
+                    ],
+                    "block_type": "body",
+                    "content": "data platform separates storage, services, and control so enterprises can modernize faster, scale efficiently, and innovate without lock-in. As the only enterprise"
+                },
+                {
+                    "bbox": [
+                        197.0919952392578,
+                        698.4723510742188,
+                        581.5682373046875,
+                        705.622314453125
+                    ],
+                    "block_type": "body",
+                    "content": "storage platform natively embedded in the world’s largest clouds, it gives organizations the freedom to run any workload anywhere with consistent performance,"
+                },
+                {
+                    "bbox": [
+                        197.0919952392578,
+                        707.4723510742188,
+                        576.0468139648438,
+                        714.622314453125
+                    ],
+                    "block_type": "body",
+                    "content": "governance, and protection. With NetApp, data is always ready – ready to defend against threats, ready to power AI, and ready to drive the next breakthrough."
+                },
+                {
+                    "bbox": [
+                        197.0919952392578,
+                        716.4723510742188,
+                        450.2543640136719,
+                        723.622314453125
+                    ],
+                    "block_type": "body",
+                    "content": "That’s why the world’s most forward-thinking enterprises trust NetApp to turn intelligence into advantage."
+                },
+                {
+                    "bbox": [
+                        197.0919952392578,
+                        734.4723510742188,
+                        402.71697998046875,
+                        741.622314453125
+                    ],
+                    "block_type": "body",
+                    "content": "Learn more at www.netapp.com or follow us on X, LinkedIn, Facebook, and Instagram."
+                },
+                {
+                    "bbox": [
+                        303.23199462890625,
+                        755.1197509765625,
+                        340.6984558105469,
+                        762.2697143554688
+                    ],
+                    "block_type": "heading",
+                    "content": "DS-3466-0326"
+                },
+                {
+                    "bbox": [
+                        39.224998474121094,
+                        34.47257614135742,
+                        178.04171752929688,
+                        50.23557662963867
+                    ],
+                    "block_type": "heading",
+                    "content": "NX224 storage enclosure"
+                },
+                {
+                    "bbox": [
+                        39.22100067138672,
+                        58.66770935058594,
+                        243.6110076904297,
+                        71.53771209716797
+                    ],
+                    "block_type": "heading",
+                    "content": "Maximum drives\n24"
+                },
+                {
+                    "bbox": [
+                        39.22100830078125,
+                        78.58470153808594,
+                        325.7620544433594,
+                        91.45470428466797
+                    ],
+                    "block_type": "body",
+                    "content": "Drive form factor\n2.5” small form factor"
+                },
+                {
+                    "bbox": [
+                        39.22100830078125,
+                        98.50169372558594,
+                        244.51100158691406,
+                        111.37169647216797
+                    ],
+                    "block_type": "heading",
+                    "content": "Form factor\n2U"
+                },
+                {
+                    "bbox": [
+                        39.22100830078125,
+                        118.41868591308594,
+                        371.9797058105469,
+                        142.2866668701172
+                    ],
+                    "block_type": "body",
+                    "content": "Drive type  \nsupported\n7.6 TB, 15.3 TB, 30.7 TB, 61.4 TB"
+                },
+                {
+                    "bbox": [
+                        39.22100830078125,
+                        149.3336639404297,
+                        318.4496154785156,
+                        162.2036590576172
+                    ],
+                    "block_type": "body",
+                    "content": "OS version \nONTAP 9.17.1 or later"
+                },
+                {
+                    "bbox": [
+                        39.22100830078125,
+                        169.2506561279297,
+                        250.60850524902344,
+                        182.1206512451172
+                    ],
+                    "block_type": "heading",
+                    "content": "Typical power consumption\nTBD"
+                },
+                {
+                    "bbox": [
+                        39.297000885009766,
+                        207.8594207763672,
+                        113.3039321899414,
+                        223.62242126464844
+                    ],
+                    "block_type": "heading",
+                    "content": "AFX software"
+                },
+                {
+                    "bbox": [
+                        39.292999267578125,
+                        232.0546112060547,
+                        490.27862548828125,
+                        255.92259216308594
+                    ],
+                    "block_type": "body",
+                    "content": "High availability\n•\t\nDisaggregated active-active controller designed for 6 9s of availability \n•\t\nNondisruptive maintenance, upgrade, and scale-out clustering"
+                },
+                {
+                    "bbox": [
+                        39.274993896484375,
+                        262.9696044921875,
+                        482.5546875,
+                        297.8355712890625
+                    ],
+                    "block_type": "body",
+                    "content": "Storage efficiency\n•\t\nInline data compression, deduplication, and compaction\n•\t\nSpace-efficient file and volume cloning\n•\t\nMaximize your flash ROI with data protection overhead as low as 10%"
+                },
+                {
+                    "bbox": [
+                        39.24798583984375,
+                        304.882568359375,
+                        557.673095703125,
+                        394.73846435546875
+                    ],
+                    "block_type": "body",
+                    "content": "Data management \n•\t\nIntuitive onboard GUI, REST APIs, and automation integration\n•\t\nProactive data balancing across cluster\n•\t\nAI-informed predictive analytics and corrective action\n•\t\nQuality-of-service workload control\n•\t\nEasy provisioning and data management from market-leading host operating systems, \nhypervisors, and application software\n•\t\nAsymmetrically stripe large files across FlexGroup\n•\t\nAPI support for NAS volumes sharing their data via S3"
+                },
+                {
+                    "bbox": [
+                        39.184967041015625,
+                        401.78546142578125,
+                        530.47802734375,
+                        414.65545654296875
+                    ],
+                    "block_type": "body",
+                    "content": "Scalable NAS\n•\t\nExascale capable single namespace management with local and remote caching"
+                },
+                {
+                    "bbox": [
+                        39.17596435546875,
+                        421.70245361328125,
+                        442.92681884765625,
+                        470.5634765625
+                    ],
+                    "block_type": "body",
+                    "content": "Data protection\n•\t\nApplication-consistent NetApp Snapshot™ copies and restore\n•\t\nIntegrated remote backup and disaster recovery\n•\t\nSynchronous zero-data-loss replication\n•\t\nTamper-proof Snapshot copies"
+                },
+                {
+                    "bbox": [
+                        39.13995361328125,
+                        477.5654602050781,
+                        443.0582275390625,
+                        550.4655151367188
+                    ],
+                    "block_type": "body",
+                    "content": "Security and compliance\n•\t\nAI-powered Autonomous Ransomware Protection \n•\t\nMultifactor administrator access\n•\t\nSecure multitenant shared storage\n•\t\nIn-flight and data-at-rest encryption\n•\t\nRegulatory-compliant data retention\n•\t\nMultiadmin verification before executing sensitive commands"
+                },
+                {
+                    "bbox": [
+                        39.094940185546875,
+                        557.5125122070312,
+                        500.2371826171875,
+                        582.3795166015625
+                    ],
+                    "block_type": "body",
+                    "content": "Cloud integration\n•\t\nSeamlessly back up, replicate, and cache data to private and public clouds\n•\t\nNative data mobility to major public cloud services"
+                },
+                {
+                    "bbox": [
+                        30.672000885009766,
+                        588.4638061523438,
+                        576.3422241210938,
+                        595.61376953125
+                    ],
+                    "block_type": "body",
+                    "content": "* These specifications represent reasonable customer configurations. The AFX architectural design can scale more than an order of magnitude above the noted limits. Upon initial release of the AFX 1K certain smaller limits"
+                },
+                {
+                    "bbox": [
+                        30.672000885009766,
+                        596.4638061523438,
+                        569.3648071289062,
+                        603.61376953125
+                    ],
+                    "block_type": "body",
+                    "content": "may be imposed; please check with NetApp for details. Full enablement of the limits in the referenced table is planned for a future software release of ONTAP, included at no additional cost for customers under a support"
+                },
+                {
+                    "bbox": [
+                        30.672000885009766,
+                        604.4638061523438,
+                        574.8369750976562,
+                        611.61376953125
+                    ],
+                    "block_type": "body",
+                    "content": "contract. Statements by NetApp about unreleased offerings and future plans are for informational purposes only, are subject to change without notice, and should not be relied upon for purchasing or other decisions. Such"
+                },
+                {
+                    "bbox": [
+                        30.672000885009766,
+                        612.4638061523438,
+                        427.8115234375,
+                        619.61376953125
+                    ],
+                    "block_type": "body",
+                    "content": "statements do not constitute a commitment, obligation, guarantee, or warranty of any kind by NetApp, including about availability, functionality, pricing, or timing."
+                }
+            ],
+            "content": "Contact Us NETAPP, the NETAPP logo, and the marks listed at http://www.netapp.com/TM are trademarks of NetApp, Inc. Other company and product names may be trademarks of their respective owners. About NetApp For more than three decades, NetApp has helped the world’s leading organizations navigate change - from the rise of enterprise storage to the intelligent era defined by data and AI. Today, NetApp is the Intelligent Data Infrastructure company, helping customers turn data into a catalyst for innovation, resilience, and growth. At the heart of that infrastructure is the NetApp data platform - the unified, enterprise-grade, intelligent foundation that connects, protects, and activates data across every cloud, workload, and environment. Built on the proven power of NetApp ONTAP, our leading data management software and OS, and enhanced by automation through the AI Data Engine and AFX, it delivers observability, resilience, and intelligence at scale. Disaggregated by design, the NetApp data platform separates storage, services, and control so enterprises can modernize faster, scale efficiently, and innovate without lock-in. As the only enterprise storage platform natively embedded in the world’s largest clouds, it gives organizations the freedom to run any workload anywhere with consistent performance, governance, and protection. With NetApp, data is always ready - ready to defend against threats, ready to power AI, and ready to drive the next breakthrough. That’s why the world’s most forward-thinking enterprises trust NetApp to turn intelligence into advantage. Learn more at www.netapp.com or follow us on X, LinkedIn, Facebook, and Instagram. DS-3466-0326 NX224 storage enclosure Maximum drives Drive form factor 2.5\" small form factor Form factor Drive type supported 7.6 TB, 15.3 TB, 30.7 TB, 61.4 TB Typical power consumption TBD AFX software High availability Disaggregated active-active controller designed for 6 9s of availability Nondisruptive maintenance, upgrade, and scale-out clustering Storage efficiency Inline data compression, deduplication, and compaction Space-efficient file and volume cloning Maximize your flash ROI with data protection overhead as low as 10% Data management Intuitive onboard GUI, REST APIs, and automation integration Proactive data balancing across cluster AI-informed predictive analytics and corrective action Quality-of-service workload control Easy provisioning and data management from market-leading host operating systems, hypervisors, and application software Asymmetrically stripe large files across FlexGroup API support for NAS volumes sharing their data via S3 Scalable NAS Exascale capable single namespace management with local and remote caching Data protection Application-consistent NetApp Snapshot™ copies and restore Integrated remote backup and disaster recovery Synchronous zero-data-loss replication Tamper-proof Snapshot copies Security and compliance AI-powered Autonomous Ransomware Protection Multifactor administrator access Secure multitenant shared storage In-flight and data-at-rest encryption Regulatory-compliant data retention Multiadmin verification before executing sensitive commands Cloud integration Seamlessly back up, replicate, and cache data to private and public clouds Native data mobility to major public cloud services * These specifications represent reasonable customer configurations. The AFX architectural design can scale more than an order of magnitude above the noted limits. Upon initial release of the AFX 1K certain smaller limits may be imposed; please check with NetApp for details. Full enablement of the limits in the referenced table is planned for a future software release of ONTAP, included at no additional cost for customers under a support contract. Statements by NetApp about unreleased offerings and future plans are for informational purposes only, are subject to change without notice, and should not be relied upon for purchasing or other decisions. Such statements do not constitute a commitment, obligation, guarantee, or warranty of any kind by NetApp, including about availability, functionality, pricing, or timing."
+        },
+        {
+            "page": 1,
+            "section": "AFX",
+            "type": "image",
+            "path": "output/Netapp-AFX-Datasheet-DS-3466-0326_images/page_1_0.png",
+            "image_type": "decorative_image",
+            "title": "",
+            "image_caption": "A stylized representation of NetApp storage systems.",
+            "diagram_summary": "",
+            "key_points": [
+                "Focus on NetApp branding.",
+                "Emphasizes storage solutions.",
+                "Suggests scalability and reliability.",
+                "Modern and sleek design aesthetic."
+            ]
+        },
+        {
+            "page": 3,
+            "section": "AFX components",
+            "type": "image",
+            "path": "output/Netapp-AFX-Datasheet-DS-3466-0326_images/page_3_0.png",
+            "image_type": "diagram",
+            "title": "CLIENT DATA NETWORK: NFS, S3, SMB",
+            "image_caption": "A diagram illustrating the architecture of a client data network with NetApp storage systems and an AI data engine.",
+            "diagram_summary": "The diagram illustrates the architecture of a client data network, showing the flow of data from client systems (using NFS, S3, and SMB protocols) to NetApp storage systems. The data is then processed by an AI data engine, highlighting the integration of storage and AI technologies for efficient data management and analysis.",
+            "key_points": [
+                "Client systems connect to NetApp storage systems using NFS, S3, and SMB protocols.",
+                "Data is transferred from client systems to NetApp storage systems.",
+                "NetApp storage systems are depicted with varying levels of speed and latency.",
+                "The AI data engine processes the data from the NetApp storage systems.",
+                "The diagram emphasizes the seamless integration of storage and AI technologies."
+            ]
+        },
+        {
+            "page": 3,
+            "section": "AFX components",
+            "type": "table",
+            "text": "AFX cluster: \nMaximum storage controllers: 128\nMaximum storage enclosures: 52\nMaximum effective capacity: 1+ EB\nMaximum data compute nodes: 10\nSupported storage protocols: pNFS, NFS, SMB, S3, NFS/RDMA"
+        },
+        {
+            "page": 3,
+            "section": "AFX components",
+            "type": "table",
+            "text": "AFX 1K storage controller: \nController form factor: 2U\nPCIe expansion slots: 11 (9 + NVRAM)\nX50131B —\n2p, 100G/200G/400G Ethernet: 4\nX50130B —\nX50130B —\n2p, 40G/100G Ethernet controller\n100GbE ports (40Gbe autoranging): 5\nX50133A —\n4p, 10G/25G Ethernet controller\n10GBASE-T (1Gbe autoranging): 5\nOS version: ONTAP 9.17.1 or later\nPower consumption (median or typical): Voltage - 200 (200 to 240)\nAmps - 6.48 Typical"
+        },
+        {
+            "page": 4,
+            "section": "NX224 storage enclosure",
+            "type": "table",
+            "text": "NX224 storage enclosure: \nMaximum drives: 24\nDrive form factor: 2.5” small form factor\nForm factor: 2U\nDrive type\nsupported: 7.6 TB, 15.3 TB, 30.7 TB, 61.4 TB\nOS version: ONTAP 9.17.1 or later\nTypical power consumption: TBD"
+        },
+        {
+            "page": 4,
+            "section": "NX224 storage enclosure",
+            "type": "table",
+            "text": "AFX software: \nHigh availability: • Disaggregated active-active controller designed for 6 9s of availability\n• Nondisruptive maintenance, upgrade, and scale-out clustering\nStorage efficiency: • Inline data compression, deduplication, and compaction\n• Space-efficient file and volume cloning\n• Maximize your flash ROI with data protection overhead as low as 10%\nData management: • Intuitive onboard GUI, REST APIs, and automation integration\n• Proactive data balancing across cluster\n• AI-informed predictive analytics and corrective action\n• Quality-of-service workload control\n• Easy provisioning and data management from market-leading host operating systems,\nhypervisors, and application software\n• Asymmetrically stripe large files across FlexGroup\n• API support for NAS volumes sharing their data via S3\nScalable NAS: • Exascale capable single namespace management with local and remote caching\nData protection: • Application-consistent NetApp Snapshot™ copies and restore\n• Integrated remote backup and disaster recovery\n• Synchronous zero-data-loss replication\n• Tamper-proof Snapshot copies\nSecurity and compliance: • AI-powered Autonomous Ransomware Protection\n• Multifactor administrator access\n• Secure multitenant shared storage\n• In-flight and data-at-rest encryption\n• Regulatory-compliant data retention\n• Multiadmin verification before executing sensitive commands\nCloud integration: • Seamlessly back up, replicate, and cache data to private and public clouds\n• Native data mobility to major public cloud services"
+        }
+    ]
+}

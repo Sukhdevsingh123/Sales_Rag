@@ -12,7 +12,7 @@ import pypdfium2 as pdfium
 from io import BytesIO
 from PIL import Image
 
-from app.vlm import generate_image_caption_async
+from app.Extractor.vlm import generate_image_caption_async
 
 
 # ─────────────────────────────────────────

@@ -1,0 +1,1298 @@
+{
+    "file_name": "NetApp-DS-3582-1225-AFF-A-Series.pdf",
+    "total_pages": 6,
+    "skip_images": false,
+    "content": [
+        {
+            "page": 1,
+            "section": "Powerful. Intelligent. Secure.",
+            "type": "text",
+            "layout": [
+                {
+                    "bbox": [
+                        30.43199920654297,
+                        20.191774368286133,
+                        79.2384033203125,
+                        44.755775451660156
+                    ],
+                    "block_type": "heading",
+                    "content": "DATASHEET"
+                },
+                {
+                    "bbox": [
+                        520.1378784179688,
+                        765.8126831054688,
+                        581.182373046875,
+                        773.5731811523438
+                    ],
+                    "block_type": "heading",
+                    "content": "1\nNetApp Datasheet"
+                },
+                {
+                    "bbox": [
+                        29.8799991607666,
+                        40.55152130126953,
+                        191.2824249267578,
+                        146.24754333496094
+                    ],
+                    "block_type": "heading",
+                    "content": "NETAPP\nAFF A-SERIES"
+                },
+                {
+                    "bbox": [
+                        30.167999267578125,
+                        440.1478271484375,
+                        195.25881958007812,
+                        462.2538146972656
+                    ],
+                    "block_type": "heading",
+                    "content": "Powerful. Intelligent. Secure."
+                },
+                {
+                    "bbox": [
+                        30.601999282836914,
+                        493.48779296875,
+                        252.48802185058594,
+                        519.6677856445312
+                    ],
+                    "block_type": "body",
+                    "content": "Unified data storage built for the AI era"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        520.86083984375,
+                        281.4804382324219,
+                        533.559814453125
+                    ],
+                    "block_type": "body",
+                    "content": "Welcome to the future of intelligent data infrastructure."
+                },
+                {
+                    "bbox": [
+                        30.599098205566406,
+                        544.86083984375,
+                        295.92010498046875,
+                        641.5387573242188
+                    ],
+                    "block_type": "body",
+                    "content": "NetApp® AFF A-Series systems easily power your most \ndemanding workloads—from the mission-critical apps that \nrun your business today to the AI and GenAI workloads that \nwill unlock innovation and productivity in the future. With the \nadvanced data management, industry-leading ransomware \nprotection, and cloud integration that GenAI and other \nmodern workloads demand, only NetApp delivers true \nunified storage architected for the next generation."
+                },
+                {
+                    "bbox": [
+                        30.599098205566406,
+                        652.8427734375,
+                        293.332275390625,
+                        761.538818359375
+                    ],
+                    "block_type": "body",
+                    "content": "The AFF A-Series storage family, powered by NetApp \nONTAP® data management software, delivers the same \nNetApp simplicity and reliability that tens of thousands of \norganizations of every size, in every industry, around the \nglobe, have trusted for years. It’s the same technology that \nthe top three public clouds rely on to drive all your apps and \ndata across hybrid cloud. No more silos, no more storage \ncomplexity. Just powerful, intelligent, secure storage to \nseamlessly accelerate your business."
+                },
+                {
+                    "bbox": [
+                        318.6033020019531,
+                        501.4388122558594,
+                        582.0654907226562,
+                        598.1168212890625
+                    ],
+                    "block_type": "body",
+                    "content": "Transform to meet the needs of business today\nData-driven organizations require an agile and efficient \nhybrid IT infrastructure to meet the demand for fast, secure, \nand continuous access to distributed data in the hybrid \ncloud. NetApp’s intelligent data infrastructure delivers \nthe industry’s richest suite of data services across hybrid \nmulticloud, enabling teams to seamlessly consume the \nservices they require, on premises or in the cloud."
+                },
+                {
+                    "bbox": [
+                        318.6033020019531,
+                        609.4208374023438,
+                        569.8102416992188,
+                        694.101806640625
+                    ],
+                    "block_type": "body",
+                    "content": "NetApp technologies, including the AFF A-Series, \nare anchored in unified data storage, which enables \nbusinesses to run any data type, and any app workload, \nacross their premises and cloud with a single OS: ONTAP. \nA unified management experience provides ease of use \nand efficiency, eliminating infrastructure silos and data \nbottlenecks and delivering unmatched simplicity at scale."
+                }
+            ],
+            "content": "NETAPP AFF A-SERIES Powerful. Intelligent. Secure. Unified data storage built for the AI era Welcome to the future of intelligent data infrastructure. NetApp® AFF A-Series systems easily power your most demanding workloads-from the mission-critical apps that run your business today to the AI and GenAI workloads that will unlock innovation and productivity in the future. With the advanced data management, industry-leading ransomware protection, and cloud integration that GenAI and other modern workloads demand, only NetApp delivers true unified storage architected for the next generation. The AFF A-Series storage family, powered by NetApp ONTAP® data management software, delivers the same NetApp simplicity and reliability that tens of thousands of organizations of every size, in every industry, around the globe, have trusted for years. It’s the same technology that the top three public clouds rely on to drive all your apps and data across hybrid cloud. No more silos, no more storage complexity. Just powerful, intelligent, secure storage to seamlessly accelerate your business. Transform to meet the needs of business today Data-driven organizations require an agile and efficient hybrid IT infrastructure to meet the demand for fast, secure, and continuous access to distributed data in the hybrid cloud. NetApp’s intelligent data infrastructure delivers the industry’s richest suite of data services across hybrid multicloud, enabling teams to seamlessly consume the services they require, on premises or in the cloud. NetApp technologies, including the AFF A-Series, are anchored in unified data storage, which enables businesses to run any data type, and any app workload, across their premises and cloud with a single OS: ONTAP. A unified management experience provides ease of use and efficiency, eliminating infrastructure silos and data bottlenecks and delivering unmatched simplicity at scale."
+        },
+        {
+            "page": 2,
+            "section": "Turbocharge every workload without",
+            "type": "text",
+            "layout": [
+                {
+                    "bbox": [
+                        520.1339111328125,
+                        765.8126831054688,
+                        581.21142578125,
+                        773.5731811523438
+                    ],
+                    "block_type": "heading",
+                    "content": "2\nNetApp Datasheet"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        29.499725341796875,
+                        290.9844055175781,
+                        114.18077850341797
+                    ],
+                    "block_type": "body",
+                    "content": "Emerging workloads, such as AI and GenAI, data analytics, \nand deep learning, demand extreme performance. AFF \nA-Series systems deliver industry-leading speed, massive \nscalability, and best-in-class integration with public clouds, \nNVIDIA, and the MLOps ecosystem to help you accelerate, \nmanage, and protect your next-generation apps across \nhybrid cloud."
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        125.48477172851562,
+                        281.9718933105469,
+                        150.1807861328125
+                    ],
+                    "block_type": "body",
+                    "content": "Organizations of every size, in every industry, rely on AFF \nsystems to:"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        153.97879028320312,
+                        280.3743591308594,
+                        190.67181396484375
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Accelerate and consolidate every workload (VMware, \ndatabase, AI, and more) with unmatched performance, \nefficiency, and scale"
+                },
+                {
+                    "bbox": [
+                        30.59100341796875,
+                        194.46981811523438,
+                        281.28790283203125,
+                        231.162841796875
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Drive transformation with a future-proof intelligent  \ndata infrastructure that seamlessly manages, protects, \nand mobilizes data across hybrid cloud"
+                },
+                {
+                    "bbox": [
+                        30.58200454711914,
+                        234.96084594726562,
+                        277.7076416015625,
+                        271.65386962890625
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Protect business-critical data against internal and \nexternal threats with real-time ransomware detection, \nguaranteed recovery, and business continuity"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        277.126708984375,
+                        247.6000213623047,
+                        320.3027038574219
+                    ],
+                    "block_type": "heading",
+                    "content": "Turbocharge every workload without \ntrade-offs"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        321.49969482421875,
+                        276.105712890625,
+                        418.1777648925781
+                    ],
+                    "block_type": "body",
+                    "content": "NetApp AFF A-Series systems deliver industry-leading \nperformance, verified by SPC-1 and SPEC SFS industry \nbenchmarks. These systems are ideal for everything  \nfrom VMware environments, to highly transactional \napplications (such as Oracle, Microsoft SQL Server,  \nand MongoDB databases), to the most data-intensive AI \ntraining, tuning, inferencing, and retrieval-augmented \ngeneration (RAG) workloads."
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        429.48175048828125,
+                        290.96014404296875,
+                        562.1508178710938
+                    ],
+                    "block_type": "body",
+                    "content": "With the power of front-end NVMe/FC and NVMe/TCP  \nhost connectivity combined with back-end NVMe-attached \nSSDs, the high-end AFF A1K modular system delivers up \nto 40 million IOPS and 1TBps throughput in a single cluster \nthrough a unified, scale-out architecture. \n \nThe AFF A90 system also delivers high-end performance—\nin an integrated form factor that’s especially well suited \nfor AI (including GenAI), EDA, and media/entertainment \nworkloads. It also enables in-chassis nondisruptive \nupgrades."
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        573.454833984375,
+                        288.9603576660156,
+                        610.1478271484375
+                    ],
+                    "block_type": "body",
+                    "content": "The integrated midrange AFF A70 system puts outstanding \nperformance and flexibility (more I/O on network \nconnection) within your budget."
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        621.4518432617188,
+                        281.16094970703125,
+                        658.144775390625
+                    ],
+                    "block_type": "body",
+                    "content": "The midrange AFF A50, AFF A30, and the entry-level AFF \nA20 all-flash storage systems offer high performance at  \nan aggressive price point."
+                },
+                {
+                    "bbox": [
+                        331.6000061035156,
+                        40.127174377441406,
+                        410.6701965332031,
+                        55.64817428588867
+                    ],
+                    "block_type": "heading",
+                    "content": "KEY BENEFITS"
+                },
+                {
+                    "bbox": [
+                        332.2820129394531,
+                        70.6521987915039,
+                        380.8602600097656,
+                        86.1731948852539
+                    ],
+                    "block_type": "heading",
+                    "content": "Powerful"
+                },
+                {
+                    "bbox": [
+                        333.3599853515625,
+                        93.83731079101562,
+                        562.3406372070312,
+                        130.53033447265625
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Turbocharge every workload—VMware, database, \nAI—with 40 million IOPS, 1TBps throughput, and \nmassive scale."
+                },
+                {
+                    "bbox": [
+                        333.35101318359375,
+                        138.64834594726562,
+                        565.6724853515625,
+                        175.34136962890625
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Enable unmatched power and consolidation for all \nyour workloads with hyperefficient, unified storage \nthat supports block, file, and object."
+                },
+                {
+                    "bbox": [
+                        333.342041015625,
+                        183.45938110351562,
+                        557.8270874023438,
+                        220.15240478515625
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Accelerate without trade-offs through consistent \nperformance, AQoS, and proven 99.9999%  \ndata availability."
+                },
+                {
+                    "bbox": [
+                        332.2799987792969,
+                        238.11526489257812,
+                        387.3471984863281,
+                        253.6362762451172
+                    ],
+                    "block_type": "heading",
+                    "content": "Intelligent"
+                },
+                {
+                    "bbox": [
+                        333.3599853515625,
+                        261.2972717285156,
+                        536.822998046875,
+                        309.9873046875
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Transform with an AI-ready ecosystem built  \non data-driven intelligence, future-proof \ninfrastructure, and deep integrations with  \nNVIDIA and the MLOps ecosystem."
+                },
+                {
+                    "bbox": [
+                        333.35101318359375,
+                        318.10528564453125,
+                        554.4540405273438,
+                        366.7953186035156
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Seamlessly manage, protect, and mobilize data,  \nat the lowest cost, across hybrid cloud with  \na single storage OS and the industry’s richest  \ndata services suite."
+                },
+                {
+                    "bbox": [
+                        332.2799987792969,
+                        374.9132995605469,
+                        557.9767456054688,
+                        445.0962829589844
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Simplify and automate hybrid operations with \nAIOps, efficient AI model versioning, and intuitive \nhybrid multicloud control delivered by BlueXP. \n \nSecure"
+                },
+                {
+                    "bbox": [
+                        333.3599853515625,
+                        452.7572937011719,
+                        561.25439453125,
+                        513.4443359375
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Protect valuable data from cyberthreats with  \nbuilt-in AI/ML-based real-time ransomware \ndetection designed for industry-first 99%+ \naccuracy, SIEM/XDR integrations, and guaranteed \nrecovery with end-to-end orchestration."
+                },
+                {
+                    "bbox": [
+                        333.35101318359375,
+                        521.5623779296875,
+                        567.037841796875,
+                        546.25830078125
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Trust in the only hardened enterprise storage that’s \nvalidated to store top-secret data."
+                },
+                {
+                    "bbox": [
+                        333.342041015625,
+                        554.3763427734375,
+                        559.1412963867188,
+                        579.0723266601562
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Prevent app disruptions, even during site failures, \nwith integrated business continuity."
+                },
+                {
+                    "bbox": [
+                        318.57305908203125,
+                        619.8783569335938,
+                        579.6619873046875,
+                        728.5533447265625
+                    ],
+                    "block_type": "body",
+                    "content": "With the new AFF A-Series systems, you’ll never need to \nchoose between performance and efficiency. You’ll have \nalways-on improved data compression and no performance \nimpact, thanks to QuickAssist Technology (Intel QAT).  \nThe systems allow you to achieve exceptional storage \nefficiency while delivering the consistent high performance \nneeded for mission-critical workloads. In addition, the new \nsystems come with faster front-end 200Gb Ethernet and \n64Gb FC networking connectivity."
+                }
+            ],
+            "content": "Emerging workloads, such as AI and GenAI, data analytics, and deep learning, demand extreme performance. AFF A-Series systems deliver industry-leading speed, massive scalability, and best-in-class integration with public clouds, NVIDIA, and the MLOps ecosystem to help you accelerate, manage, and protect your next-generation apps across hybrid cloud. Organizations of every size, in every industry, rely on AFF systems to: • Accelerate and consolidate every workload (VMware, database, AI, and more) with unmatched performance, efficiency, and scale • Drive transformation with a future-proof intelligent data infrastructure that seamlessly manages, protects, and mobilizes data across hybrid cloud • Protect business-critical data against internal and external threats with real-time ransomware detection, guaranteed recovery, and business continuity Turbocharge every workload without trade-offs NetApp AFF A-Series systems deliver industry-leading performance, verified by SPC-1 and SPEC SFS industry benchmarks. These systems are ideal for everything from VMware environments, to highly transactional applications (such as Oracle, Microsoft SQL Server, and MongoDB databases), to the most data-intensive AI training, tuning, inferencing, and retrieval-augmented generation (RAG) workloads. With the power of front-end NVMe/FC and NVMe/TCP host connectivity combined with back-end NVMe-attached SSDs, the high-end AFF A1K modular system delivers up to 40 million IOPS and 1TBps throughput in a single cluster through a unified, scale-out architecture. The AFF A90 system also delivers high-end performance- in an integrated form factor that’s especially well suited for AI (including GenAI), EDA, and media/entertainment workloads. It also enables in-chassis nondisruptive upgrades. The integrated midrange AFF A70 system puts outstanding performance and flexibility (more I/O on network connection) within your budget. The midrange AFF A50, AFF A30, and the entry-level AFF A20 all-flash storage systems offer high performance at an aggressive price point. KEY BENEFITS Powerful • Turbocharge every workload-VMware, database, AI-with 40 million IOPS, 1TBps throughput, and massive scale. • Enable unmatched power and consolidation for all your workloads with hyperefficient, unified storage that supports block, file, and object. • Accelerate without trade-offs through consistent performance, AQoS, and proven 99.9999% data availability. Intelligent • Transform with an AI-ready ecosystem built on data-driven intelligence, future-proof infrastructure, and deep integrations with NVIDIA and the MLOps ecosystem. • Seamlessly manage, protect, and mobilize data, at the lowest cost, across hybrid cloud with a single storage OS and the industry’s richest data services suite. • Simplify and automate hybrid operations with AIOps, efficient AI model versioning, and intuitive hybrid multicloud control delivered by BlueXP. Secure • Protect valuable data from cyberthreats with built-in AI/ML-based real-time ransomware detection designed for industry-first 99%+ accuracy, SIEM/XDR integrations, and guaranteed recovery with end-to-end orchestration. • Trust in the only hardened enterprise storage that’s validated to store top-secret data. • Prevent app disruptions, even during site failures, with integrated business continuity. With the new AFF A-Series systems, you’ll never need to choose between performance and efficiency. You’ll have always-on improved data compression and no performance impact, thanks to QuickAssist Technology (Intel QAT). The systems allow you to achieve exceptional storage efficiency while delivering the consistent high performance needed for mission-critical workloads. In addition, the new systems come with faster front-end 200Gb Ethernet and 64Gb FC networking connectivity."
+        },
+        {
+            "page": 3,
+            "section": "Enable your AI workloads",
+            "type": "text",
+            "layout": [
+                {
+                    "bbox": [
+                        520.1369018554688,
+                        765.8126831054688,
+                        581.0823974609375,
+                        773.5731811523438
+                    ],
+                    "block_type": "heading",
+                    "content": "3\nNetApp Datasheet"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        29.499786376953125,
+                        264.12933349609375,
+                        102.18383026123047
+                    ],
+                    "block_type": "body",
+                    "content": "All AFF A-Series systems offer advanced reliability, \navailability, and serviceability to keep your critical  \ndata available. They also provide comprehensive  \ndata management and data protection capabilities  \nfor your enterprise applications with industry-leading \nONTAP software."
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        113.48782348632812,
+                        279.62823486328125,
+                        150.18084716796875
+                    ],
+                    "block_type": "body",
+                    "content": "Leverage unmatched consolidation and scale\nConsolidate all your workloads on AFF A-Series systems, \nwhich can:"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        153.97885131835938,
+                        295.9352722167969,
+                        178.67486572265625
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Deliver up to 2x better performance compared to previous \ngenerations of systems, with latency as low as 100μs"
+                },
+                {
+                    "bbox": [
+                        30.59100341796875,
+                        182.47286987304688,
+                        227.67848205566406,
+                        207.16888427734375
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Support any data type, any app workload,  \nacross hybrid cloud"
+                },
+                {
+                    "bbox": [
+                        30.58200454711914,
+                        210.96688842773438,
+                        281.5875244140625,
+                        259.65692138671875
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Provide consistent performance, adaptive quality of \nservice (AQoS), and proven 99.9999% data availability  \nto safeguard SLAs even in multiworkload and  \nmultitenant environments"
+                },
+                {
+                    "bbox": [
+                        30.57300567626953,
+                        263.4549255371094,
+                        276.466552734375,
+                        276.1539306640625
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Scale nondisruptively to 185PB in a single namespace"
+                },
+                {
+                    "bbox": [
+                        30.564006805419922,
+                        279.9519348144531,
+                        271.03326416015625,
+                        328.69879150390625
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Improve the speed and productivity of collaborative  \nteams across multiple locations and increase data \nthroughput for read-intensive applications with  \nNetApp FlexCache® software"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        334.12677001953125,
+                        174.4639892578125,
+                        360.3067932128906
+                    ],
+                    "block_type": "heading",
+                    "content": "Enable your AI workloads"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        361.4997863769531,
+                        267.6520080566406,
+                        422.18682861328125
+                    ],
+                    "block_type": "body",
+                    "content": "AI holds the promise of new levels of innovation and \nproductivity—and AFF A-Series systems are the ideal \nstorage solution to power your AI initiatives and other  \ndata-intensive workloads. The AFF A-Series gives \nenterprises five critical AI capabilities:"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        425.9848327636719,
+                        260.0280456542969,
+                        450.68084716796875
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Unify data across hybrid cloud and efficiently and \nsecurely serve data science teams."
+                },
+                {
+                    "bbox": [
+                        30.59100341796875,
+                        454.4788513183594,
+                        295.55560302734375,
+                        503.16888427734375
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Deliver abundant levels of performance, efficiency, and \nscalability to power every segment of the AI data pipeline, \nup to and including AI-as-a-service model training tasks \nin enterprises."
+                },
+                {
+                    "bbox": [
+                        30.58200454711914,
+                        506.9668884277344,
+                        277.987548828125,
+                        531.6629028320312
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Streamline AI workflows with model interpretability, \nsimple versioning, and clear visibility into data lineage."
+                },
+                {
+                    "bbox": [
+                        30.57300567626953,
+                        535.4609375,
+                        280.0611267089844,
+                        560.1568603515625
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Get seamless, proven data management across hybrid \nmulticloud to enable hybrid cloud workloads."
+                },
+                {
+                    "bbox": [
+                        30.564006805419922,
+                        563.9548950195312,
+                        278.22967529296875,
+                        588.65087890625
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Improve GenAI accuracy and insights by training large \nfoundational models with your secured data sets."
+                },
+                {
+                    "bbox": [
+                        116.20800018310547,
+                        639.85986328125,
+                        272.08441162109375,
+                        712.5438232421875
+                    ],
+                    "block_type": "body",
+                    "content": "NetApp warrants Snapshot data \nrecovery if a ransomware attack \noccurs. If you can’t recover your  \ndata copies with help from NetApp  \nor partner assistance, NetApp  \noffers compensation."
+                },
+                {
+                    "bbox": [
+                        116.20800018310547,
+                        716.3418579101562,
+                        189.23399353027344,
+                        729.0408325195312
+                    ],
+                    "block_type": "heading",
+                    "content": "Find details here"
+                },
+                {
+                    "bbox": [
+                        318.6000061035156,
+                        29.499786376953125,
+                        567.817138671875,
+                        66.19280242919922
+                    ],
+                    "block_type": "body",
+                    "content": "With AFF A-Series systems, you can add AI workloads to \nyour existing ecosystem as needed without creating new \nsilos or complexity."
+                },
+                {
+                    "bbox": [
+                        318.6000061035156,
+                        71.62678527832031,
+                        559.7638549804688,
+                        114.8027572631836
+                    ],
+                    "block_type": "body",
+                    "content": "Keep important data available, protected, \nand secure"
+                },
+                {
+                    "bbox": [
+                        318.6000061035156,
+                        115.99978637695312,
+                        568.1923217773438,
+                        248.66888427734375
+                    ],
+                    "block_type": "body",
+                    "content": "For data-driven enterprises, the business impact of data  \nloss can be dramatic—and costly. Organizations must \nprotect their valuable data from ransomware and other \nexternal cyberattacks, and from internal threats, to keep \ntheir data available, eliminate disruptions, and quickly \nrecover from failures.\n \nAFF systems are the only hardened enterprise storage \nvalidated to store top-secret data. They deliver a \ncomprehensive suite of integrated and application-\nconsistent data protections, including:"
+                },
+                {
+                    "bbox": [
+                        318.6000061035156,
+                        252.46688842773438,
+                        563.7546997070312,
+                        301.15692138671875
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Robust protection through multifactor authentication, \nimmutable tamperproof NetApp Snapshot™ copies,  \nend-to-end encryption, and automatic blocking of \nmalicious file types"
+                },
+                {
+                    "bbox": [
+                        318.5910339355469,
+                        304.9549255371094,
+                        578.0258178710938,
+                        341.64794921875
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Real-time autonomous ransomware detection, enhanced \nby embedded (ML) models, designed for industry-first \n99%+ accuracy"
+                },
+                {
+                    "bbox": [
+                        318.5820617675781,
+                        345.4459533691406,
+                        428.0472106933594,
+                        358.14495849609375
+                    ],
+                    "block_type": "body",
+                    "content": "•\t SIEM/XDR integrations"
+                },
+                {
+                    "bbox": [
+                        318.5730895996094,
+                        361.9429626464844,
+                        568.0582885742188,
+                        398.635986328125
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Guaranteed recovery with end-to-end orchestration \nthrough the NetApp Ransomware Recovery Guarantee \nand Ransomware Recovery Assurance Service"
+                },
+                {
+                    "bbox": [
+                        318.5641174316406,
+                        402.4339904785156,
+                        520.5808715820312,
+                        415.13299560546875
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Integrated active-active business continuity"
+                },
+                {
+                    "bbox": [
+                        318.5551452636719,
+                        418.9309997558594,
+                        573.874267578125,
+                        443.62701416015625
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Cyber-vault capability that combines advanced \nencryption, immutable backups, and air-gapped storage"
+                },
+                {
+                    "bbox": [
+                        318.5461730957031,
+                        447.4250183105469,
+                        544.5108032226562,
+                        484.19580078125
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Application-consistent data protection and clone \nmanagement with the NetApp SnapCenter®  \nlicensed capability"
+                },
+                {
+                    "bbox": [
+                        318.5986022949219,
+                        487.9938049316406,
+                        544.672119140625,
+                        524.6987915039062
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Replication to any NetApp AFF or FAS system on  \nthe premises or in the cloud with NetApp  \nSnapMirror® technology"
+                },
+                {
+                    "bbox": [
+                        318.59991455078125,
+                        536.0028076171875,
+                        557.5974731445312,
+                        572.69580078125
+                    ],
+                    "block_type": "body",
+                    "content": "NetApp is the only storage vendor that can give you \nthis level of comprehensive, automated protection and \nguaranteed recovery."
+                },
+                {
+                    "bbox": [
+                        318.59991455078125,
+                        583.9998168945312,
+                        570.504150390625,
+                        752.6597900390625
+                    ],
+                    "block_type": "body",
+                    "content": "Integrate business continuity and get fast disaster \nrecovery \nWith AFF, you can maintain constant data availability with \nzero data loss and zero downtime if disruption or disaster \noccurs. NetApp MetroCluster® software replicates your \ndata synchronously to a separate location to protect your \nentire system. If something goes wrong at one site, your \napplications automatically and instantaneously switch to  \nthe other site. For a more tailored approach, choose  \nNetApp SnapMirror active sync to cost-efficiently  \nreplicate the most critical data while taking advantage  \nof the increased performance, greater flexibility, and \nenhanced load-balancing capability that come with the \nsymmetric active-active architecture."
+                }
+            ],
+            "content": "All AFF A-Series systems offer advanced reliability, availability, and serviceability to keep your critical data available. They also provide comprehensive data management and data protection capabilities for your enterprise applications with industry-leading ONTAP software. Leverage unmatched consolidation and scale Consolidate all your workloads on AFF A-Series systems, which can: • Deliver up to 2x better performance compared to previous generations of systems, with latency as low as 100μs • Support any data type, any app workload, across hybrid cloud • Provide consistent performance, adaptive quality of service (AQoS), and proven 99.9999% data availability to safeguard SLAs even in multiworkload and multitenant environments • Scale nondisruptively to 185PB in a single namespace • Improve the speed and productivity of collaborative teams across multiple locations and increase data throughput for read-intensive applications with NetApp FlexCache® software Enable your AI workloads AI holds the promise of new levels of innovation and productivity-and AFF A-Series systems are the ideal storage solution to power your AI initiatives and other data-intensive workloads. The AFF A-Series gives enterprises five critical AI capabilities: • Unify data across hybrid cloud and efficiently and securely serve data science teams. • Deliver abundant levels of performance, efficiency, and scalability to power every segment of the AI data pipeline, up to and including AI-as-a-service model training tasks in enterprises. • Streamline AI workflows with model interpretability, simple versioning, and clear visibility into data lineage. • Get seamless, proven data management across hybrid multicloud to enable hybrid cloud workloads. • Improve GenAI accuracy and insights by training large foundational models with your secured data sets. NetApp warrants Snapshot data recovery if a ransomware attack occurs. If you can’t recover your data copies with help from NetApp or partner assistance, NetApp offers compensation. Find details here With AFF A-Series systems, you can add AI workloads to your existing ecosystem as needed without creating new silos or complexity. Keep important data available, protected, and secure For data-driven enterprises, the business impact of data loss can be dramatic-and costly. Organizations must protect their valuable data from ransomware and other external cyberattacks, and from internal threats, to keep their data available, eliminate disruptions, and quickly recover from failures. AFF systems are the only hardened enterprise storage validated to store top-secret data. They deliver a comprehensive suite of integrated and application- consistent data protections, including: • Robust protection through multifactor authentication, immutable tamperproof NetApp Snapshot™ copies, end-to-end encryption, and automatic blocking of malicious file types • Real-time autonomous ransomware detection, enhanced by embedded (ML) models, designed for industry-first 99%+ accuracy • SIEM/XDR integrations • Guaranteed recovery with end-to-end orchestration through the NetApp Ransomware Recovery Guarantee and Ransomware Recovery Assurance Service • Integrated active-active business continuity • Cyber-vault capability that combines advanced encryption, immutable backups, and air-gapped storage • Application-consistent data protection and clone management with the NetApp SnapCenter® licensed capability • Replication to any NetApp AFF or FAS system on the premises or in the cloud with NetApp SnapMirror® technology NetApp is the only storage vendor that can give you this level of comprehensive, automated protection and guaranteed recovery. Integrate business continuity and get fast disaster recovery With AFF, you can maintain constant data availability with zero data loss and zero downtime if disruption or disaster occurs. NetApp MetroCluster® software replicates your data synchronously to a separate location to protect your entire system. If something goes wrong at one site, your applications automatically and instantaneously switch to the other site. For a more tailored approach, choose NetApp SnapMirror active sync to cost-efficiently replicate the most critical data while taking advantage of the increased performance, greater flexibility, and enhanced load-balancing capability that come with the symmetric active-active architecture."
+        },
+        {
+            "page": 4,
+            "section": "Increase operational efficiency for",
+            "type": "text",
+            "layout": [
+                {
+                    "bbox": [
+                        520.1336669921875,
+                        765.8126831054688,
+                        581.11767578125,
+                        773.5731811523438
+                    ],
+                    "block_type": "heading",
+                    "content": "4\nNetApp Datasheet"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        377.61981201171875,
+                        294.0731506347656,
+                        450.3038635253906
+                    ],
+                    "block_type": "body",
+                    "content": "With NetApp’s comprehensive security solutions, you can \nachieve FIPS 140-2 compliance (Level 1 and Level 2) with \nself-encrypting drives. And you can meet governance, risk, \nand compliance requirements with security features such \nas secure purge, logging and auditing monitors, and write \nonce, read many (WORM) file locking."
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        455.746826171875,
+                        234.10400390625,
+                        498.9228210449219
+                    ],
+                    "block_type": "body",
+                    "content": "Increase operational efficiency for  \nyour business"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        500.11981201171875,
+                        292.1048889160156,
+                        536.8128662109375
+                    ],
+                    "block_type": "body",
+                    "content": "With NetApp ONTAP advanced data management, you can \nlower IT costs by simplifying operations, consolidating \nworkloads, and lowering overhead."
+                },
+                {
+                    "bbox": [
+                        30.599990844726562,
+                        548.1168823242188,
+                        293.93280029296875,
+                        620.80078125
+                    ],
+                    "block_type": "body",
+                    "content": "NetApp AFF A-Series systems offer broad support \nof application ecosystems and deep integration for \nenterprise applications, virtual desktop infrastructure, \ndatabases, server virtualization, and MLOps. Infrastructure \nmanagement tools simplify and automate common  \nstorage tasks:"
+                },
+                {
+                    "bbox": [
+                        30.599990844726562,
+                        624.5988159179688,
+                        290.7684631347656,
+                        649.2947998046875
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Easily provision and rebalance workloads in minutes with \none-click automation and self-service."
+                },
+                {
+                    "bbox": [
+                        30.590991973876953,
+                        653.0928344726562,
+                        260.05145263671875,
+                        665.7918090820312
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Upgrade your OS and firmware with a single click."
+                },
+                {
+                    "bbox": [
+                        30.581993103027344,
+                        669.58984375,
+                        290.6767272949219,
+                        694.2857666015625
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Import LUNs from third-party storage arrays directly into \nan AFF system to seamlessly migrate data."
+                },
+                {
+                    "bbox": [
+                        30.572994232177734,
+                        705.58984375,
+                        295.8777160644531,
+                        742.2827758789062
+                    ],
+                    "block_type": "body",
+                    "content": "In addition, the NetApp BlueXP™ digital advisor enables you \nto optimize your NetApp systems with predictive analytics \nand proactive support."
+                },
+                {
+                    "bbox": [
+                        318.572998046875,
+                        377.9627990722656,
+                        565.4879760742188,
+                        438.64984130859375
+                    ],
+                    "block_type": "body",
+                    "content": "Flexibly consume storage resources\nNetApp AFF A-Series systems are unified data storage  \nbuilt for the AI era. This intelligent data infrastructure \nenables you to architect for the future while powering  \nall of your workloads today."
+                },
+                {
+                    "bbox": [
+                        318.572998046875,
+                        449.9538269042969,
+                        573.614990234375,
+                        510.640869140625
+                    ],
+                    "block_type": "body",
+                    "content": "Like the rest of the NetApp portfolio, the new AFF  \nA-Series systems are available through traditional capex  \nor as a service with the NetApp Keystone® portfolio.  \nGain financial flexibility as you modernize, and better  \nalign IT expenditure to business needs."
+                },
+                {
+                    "bbox": [
+                        330.27996826171875,
+                        527.499755859375,
+                        568.866455078125,
+                        612.1806640625
+                    ],
+                    "block_type": "body",
+                    "content": "Get more business value with services \nWhether you’re planning your next-generation data \ncenter, need specialized know-how for a major storage \ndeployment, or want to optimize the operational \nefficiency of your existing infrastructure, NetApp \nProfessional Services and NetApp Certified Partners \ncan help."
+                },
+                {
+                    "bbox": [
+                        404.2799987792969,
+                        644.85986328125,
+                        568.24462890625,
+                        717.5438232421875
+                    ],
+                    "block_type": "body",
+                    "content": "Eliminate the headache of tech \nrefreshes with the Storage Lifecycle \nProgram: Get a new controller every 3 \nyears with support-managed updates \nincluded, or move to the cloud—\nwhichever best meets your needs."
+                },
+                {
+                    "bbox": [
+                        404.2799987792969,
+                        721.3418579101562,
+                        464.89501953125,
+                        734.0408325195312
+                    ],
+                    "block_type": "heading",
+                    "content": "Find out more"
+                }
+            ],
+            "content": "With NetApp’s comprehensive security solutions, you can achieve FIPS 140-2 compliance (Level 1 and Level 2) with self-encrypting drives. And you can meet governance, risk, and compliance requirements with security features such as secure purge, logging and auditing monitors, and write once, read many (WORM) file locking. Increase operational efficiency for your business With NetApp ONTAP advanced data management, you can lower IT costs by simplifying operations, consolidating workloads, and lowering overhead. NetApp AFF A-Series systems offer broad support of application ecosystems and deep integration for enterprise applications, virtual desktop infrastructure, databases, server virtualization, and MLOps. Infrastructure management tools simplify and automate common storage tasks: • Easily provision and rebalance workloads in minutes with one-click automation and self-service. • Upgrade your OS and firmware with a single click. • Import LUNs from third-party storage arrays directly into an AFF system to seamlessly migrate data. In addition, the NetApp BlueXP™ digital advisor enables you to optimize your NetApp systems with predictive analytics and proactive support. Flexibly consume storage resources NetApp AFF A-Series systems are unified data storage built for the AI era. This intelligent data infrastructure enables you to architect for the future while powering all of your workloads today. Like the rest of the NetApp portfolio, the new AFF A-Series systems are available through traditional capex or as a service with the NetApp Keystone® portfolio. Gain financial flexibility as you modernize, and better align IT expenditure to business needs. Get more business value with services Whether you’re planning your next-generation data center, need specialized know-how for a major storage deployment, or want to optimize the operational efficiency of your existing infrastructure, NetApp Professional Services and NetApp Certified Partners can help. Eliminate the headache of tech refreshes with the Storage Lifecycle Program: Get a new controller every 3 years with support-managed updates included, or move to the cloud- whichever best meets your needs. Find out more"
+        },
+        {
+            "page": 5,
+            "section": "Table 1) AFF A-Series technical specifications",
+            "type": "text",
+            "layout": [
+                {
+                    "bbox": [
+                        520.1353149414062,
+                        765.8126831054688,
+                        581.1358032226562,
+                        773.5731811523438
+                    ],
+                    "block_type": "heading",
+                    "content": "5\nNetApp Datasheet"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        29.499725341796875,
+                        236.4641876220703,
+                        42.198726654052734
+                    ],
+                    "block_type": "body",
+                    "content": "Table 1) AFF A-Series technical specifications"
+                },
+                {
+                    "bbox": [
+                        126.45999908447266,
+                        112.74752807617188,
+                        544.1983032226562,
+                        124.0355224609375
+                    ],
+                    "block_type": "body",
+                    "content": "AFF A1K\nAFF A90\nAFF A70\nAFF A50\nAFF A30\nAFF A20"
+                },
+                {
+                    "bbox": [
+                        38.46500015258789,
+                        133.05380249023438,
+                        550.1432495117188,
+                        151.9328155517578
+                    ],
+                    "block_type": "body",
+                    "content": "Maximum scale-out\n2–24 nodes\n(12 HA pairs)\n2–24 nodes\n(12 HA pairs)\n2–24 nodes\n(12 HA pairs)\n2–24 nodes\n(12 HA pairs)\n2-8 nodes\n(4 HA pairs)\n2–6 nodes\n(3 HA pairs)"
+                },
+                {
+                    "bbox": [
+                        38.457977294921875,
+                        158.14883422851562,
+                        522.2160034179688,
+                        168.56483459472656
+                    ],
+                    "block_type": "body",
+                    "content": "Maximum SSDs\n2880\n2880\n2880\n1440\n288\n144"
+                },
+                {
+                    "bbox": [
+                        38.450958251953125,
+                        173.49984741210938,
+                        533.42333984375,
+                        192.3788604736328
+                    ],
+                    "block_type": "body",
+                    "content": "Maximum effective \ncapacity1\n330PB\n330PB\n330PB\n186PB \n36.2PB\n18.8PB"
+                },
+                {
+                    "bbox": [
+                        38.45599365234375,
+                        197.71572875976562,
+                        561.9647827148438,
+                        217.13380432128906
+                    ],
+                    "block_type": "body",
+                    "content": "Controller chassis \nform factor\n2X2U\n4U; 48 internal \nSSD slots\n4U; 48 internal \nSSD slots\n2U; 24 internal \nSSD slots\n2U; 24 internal \nSSD slots\n2U; 24 internal \nSSD slots"
+                },
+                {
+                    "bbox": [
+                        38.448974609375,
+                        224.30880737304688,
+                        529.9917602539062,
+                        243.72682189941406
+                    ],
+                    "block_type": "body",
+                    "content": "Power consumption \n(median)\n2718W \n(with NS224)\n1950W\n1232W\n512W\n495W\n432W"
+                },
+                {
+                    "bbox": [
+                        38.44195556640625,
+                        251.18185424804688,
+                        514.1058959960938,
+                        261.59783935546875
+                    ],
+                    "block_type": "body",
+                    "content": "PCIe expansion slots\n18\n18\n18\n8\n8\n8"
+                },
+                {
+                    "bbox": [
+                        38.4349365234375,
+                        266.7358703613281,
+                        518.6838989257812,
+                        285.6148681640625
+                    ],
+                    "block_type": "body",
+                    "content": "FC target ports  \n(64Gb autoranging)\n48\n56\n56\n24\n24\n24"
+                },
+                {
+                    "bbox": [
+                        38.42791748046875,
+                        290.1789245605469,
+                        518.6768798828125,
+                        309.05792236328125
+                    ],
+                    "block_type": "body",
+                    "content": "FC target ports  \n(32Gb autoranging)\n48\n56\n56\n24\n24\n24"
+                },
+                {
+                    "bbox": [
+                        38.4208984375,
+                        313.57293701171875,
+                        518.6698608398438,
+                        332.4519348144531
+                    ],
+                    "block_type": "body",
+                    "content": "FC target ports  \n(16Gb autoranging)\n48\n56\n56\n24\n24\n24"
+                },
+                {
+                    "bbox": [
+                        38.41387939453125,
+                        336.91094970703125,
+                        520.375732421875,
+                        355.7899475097656
+                    ],
+                    "block_type": "body",
+                    "content": "FCoE target ports, \nU TA2\nn/a\nn/a\nn/a\n64\nn/a\nn/a"
+                },
+                {
+                    "bbox": [
+                        38.4068603515625,
+                        360.24896240234375,
+                        520.3687133789062,
+                        388.1299743652344
+                    ],
+                    "block_type": "body",
+                    "content": "200GbE ports  \n(100GbE/40GbE \nautoranging)\n24\n24\n24\nn/a\nn/a\nn/a"
+                },
+                {
+                    "bbox": [
+                        38.39984130859375,
+                        392.5889892578125,
+                        517.269775390625,
+                        411.4679870605469
+                    ],
+                    "block_type": "body",
+                    "content": "100GbE ports \n(40GbE autoranging)\n36\n36\n36\n16\n16\n12"
+                },
+                {
+                    "bbox": [
+                        38.392822265625,
+                        415.927001953125,
+                        518.5227661132812,
+                        434.8059997558594
+                    ],
+                    "block_type": "body",
+                    "content": "25GbE ports  \n(10GbE autoranging)\n48\n56\n56\n24\n24\n32"
+                },
+                {
+                    "bbox": [
+                        38.38580322265625,
+                        441.55401611328125,
+                        518.634765625,
+                        451.9700012207031
+                    ],
+                    "block_type": "body",
+                    "content": "10GbE ports \n48\n56\n56\n24\n24\n24"
+                },
+                {
+                    "bbox": [
+                        38.3787841796875,
+                        459.4250183105469,
+                        518.6277465820312,
+                        478.30401611328125
+                    ],
+                    "block_type": "body",
+                    "content": "10GBASE-T  \n(1GbE autoranging)\n48\n56\n56\n24\n24\n24"
+                },
+                {
+                    "bbox": [
+                        38.37176513671875,
+                        486.4170227050781,
+                        517.4376831054688,
+                        496.8330078125
+                    ],
+                    "block_type": "body",
+                    "content": "12Gb/6Gb SAS ports\nn/a\nn/a\nn/a\n16\n16\n16"
+                },
+                {
+                    "bbox": [
+                        38.36474609375,
+                        504.9880065917969,
+                        558.9602661132812,
+                        523.8670043945312
+                    ],
+                    "block_type": "body",
+                    "content": "OS version\nONTAP 9.15.1   \nor later\nONTAP 9.15.1  \nor later\nONTAP 9.15.1  \nor later\nONTAP 9.16.1  \nor later\nONTAP 9.16.1  \nor later\nONTAP 9.16.1  \nor later"
+                },
+                {
+                    "bbox": [
+                        38.35772705078125,
+                        529.0819702148438,
+                        573.1218872070312,
+                        549.0390014648438
+                    ],
+                    "block_type": "body",
+                    "content": "Shelves and media\nNS224 (2U, 24 \ndrives, SFF NVMe)\nNS224 (2U, 24 \ndrives, SFF NVMe)\nNS224 (2U, 24 \ndrives, SFF NVMe)\nNS224 (2U, 24 \ndrives, SFF NVMe)\nNS224 (2U, 24 \ndrives, SFF NVMe)\nNS224 (2U, 24 \ndrives, SFF NVMe)"
+                },
+                {
+                    "bbox": [
+                        38.3507080078125,
+                        555.0029907226562,
+                        376.44647216796875,
+                        573.8820190429688
+                    ],
+                    "block_type": "body",
+                    "content": "Host/client OS \nsupported\nWindows Server, Linux, Oracle Solaris, AIX, HP-UX, macOS, VMware, ESX"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        589.66650390625,
+                        497.06396484375,
+                        598.1325073242188
+                    ],
+                    "block_type": "body",
+                    "content": "1 Effective capacity based on 5:1 storage efficiency ratio with the maximum number of SSDs installed; space savings will vary dependent on workload and use cases."
+                }
+            ],
+            "content": "Table 1) AFF A-Series technical specifications AFF A1K AFF A90 AFF A70 AFF A50 AFF A30 AFF A20 Maximum scale-out 2-8 nodes (4 HA pairs) 2-6 nodes (3 HA pairs) Maximum SSDs Maximum effective capacity1 330PB 330PB 330PB 186PB 36.2PB 18.8PB Controller chassis form factor 2X2U 4U; 48 internal 4U; 48 internal 2U; 24 internal 2U; 24 internal 2U; 24 internal Power consumption (median) 2718W (with NS224) 1950W 1232W 512W 495W 432W PCIe expansion slots FC target ports (64Gb autoranging) FC target ports (32Gb autoranging) FC target ports (16Gb autoranging) FCoE target ports, U TA2 200GbE ports (100GbE/40GbE autoranging) 100GbE ports (40GbE autoranging) 25GbE ports (10GbE autoranging) 10GbE ports 10GBASE-T (1GbE autoranging) 12Gb/6Gb SAS ports OS version ONTAP 9.15.1 ONTAP 9.15.1 ONTAP 9.15.1 ONTAP 9.16.1 ONTAP 9.16.1 ONTAP 9.16.1 Shelves and media Host/client OS supported Windows Server, Linux, Oracle Solaris, AIX, HP-UX, macOS, VMware, ESX Effective capacity based on 5:1 storage efficiency ratio with the maximum number of SSDs installed; space savings will vary dependent on workload and use cases."
+        },
+        {
+            "page": 6,
+            "section": "Contact Us",
+            "type": "text",
+            "layout": [
+                {
+                    "bbox": [
+                        29.600000381469727,
+                        681.3797607421875,
+                        78.11719512939453,
+                        694.0787353515625
+                    ],
+                    "block_type": "heading",
+                    "content": "Contact Us"
+                },
+                {
+                    "bbox": [
+                        209.583984375,
+                        747.9973754882812,
+                        581.912353515625,
+                        762.0523681640625
+                    ],
+                    "block_type": "body",
+                    "content": "© 2025 NetApp, Inc. All Rights Reserved. NETAPP, the NETAPP logo, and the marks listed at http://www.netapp.com/TM are trademarks of NetApp, Inc. \nOther company and product names may be trademarks of their respective owners."
+                },
+                {
+                    "bbox": [
+                        209.58399963378906,
+                        651.5949096679688,
+                        259.8664245605469,
+                        661.471923828125
+                    ],
+                    "block_type": "heading",
+                    "content": "About NetApp"
+                },
+                {
+                    "bbox": [
+                        209.58399963378906,
+                        662.5805053710938,
+                        575.7186279296875,
+                        734.76953125
+                    ],
+                    "block_type": "body",
+                    "content": "NetApp is the intelligent data infrastructure company, combining unified data storage, integrated data services, \nand CloudOps solutions to turn a world of disruption into opportunity for every customer. NetApp creates silo-free \ninfrastructure, harnessing observability and AI to enable the industry’s best data management. As the only enterprise-\ngrade storage service natively embedded in the world’s biggest clouds, our data storage delivers seamless flexibility. \nIn addition, our data services create a data advantage through superior cyber resilience, governance, and application \nagility. Our CloudOps solutions provide continuous optimization of performance and efficiency through observability \nand AI. No matter the data type, workload, or environment, with NetApp you can transform your data infrastructure \nto realize your business possibilities. www.netapp.com"
+                },
+                {
+                    "bbox": [
+                        30.600000381469727,
+                        29.499725341796875,
+                        170.1972198486328,
+                        42.198726654052734
+                    ],
+                    "block_type": "heading",
+                    "content": "Table 2) AFF A-Series software"
+                },
+                {
+                    "bbox": [
+                        40.00299835205078,
+                        63.33639144897461,
+                        430.1902770996094,
+                        74.6243896484375
+                    ],
+                    "block_type": "body",
+                    "content": "Data access protocols\n•\t FC, iSCSI, NVMe/FC, NVMe/TCP, NFS, NFSv4/RDMA, SMB, S3"
+                },
+                {
+                    "bbox": [
+                        40.00299835205078,
+                        99.72952270507812,
+                        104.60460662841797,
+                        111.01751708984375
+                    ],
+                    "block_type": "heading",
+                    "content": "High availability"
+                },
+                {
+                    "bbox": [
+                        206.9793243408203,
+                        89.8360824584961,
+                        432.1595764160156,
+                        120.71308135986328
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Active-active controller architecture\n•\t Nondisruptive maintenance, upgrade, and scale-out clustering\n•\t Multisite resiliency for continuous data access"
+                },
+                {
+                    "bbox": [
+                        40.00299835205078,
+                        146.62252807617188,
+                        114.26219940185547,
+                        157.9105224609375
+                    ],
+                    "block_type": "heading",
+                    "content": "Storage efficiency"
+                },
+                {
+                    "bbox": [
+                        206.9793243408203,
+                        136.72909545898438,
+                        409.3197937011719,
+                        167.60609436035156
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Inline data compression, deduplication, and compaction\n•\t Space-efficient LUN, file, and volume cloning\n•\t Automatic data tiering"
+                },
+                {
+                    "bbox": [
+                        40.00299835205078,
+                        208.51559448242188,
+                        113.40220642089844,
+                        219.8035888671875
+                    ],
+                    "block_type": "heading",
+                    "content": "Data management"
+                },
+                {
+                    "bbox": [
+                        206.96534729003906,
+                        183.62222290039062,
+                        560.6167602539062,
+                        244.50123596191406
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Intuitive onboard GUI, REST APIs, and automation integration\n•\t AI-informed predictive analytics and corrective action\n•\t QoS workload control\n•\t Easy provisioning and data management from market-leading host operating systems, hypervisors,  \nand application software\n•\t Multisite copy caching for improved read and write performance over distance"
+                },
+                {
+                    "bbox": [
+                        40.00299835205078,
+                        259.9087219238281,
+                        473.5884094238281,
+                        271.19671630859375
+                    ],
+                    "block_type": "body",
+                    "content": "Scalable NAS\n•\t Large-scale single namespace management with local and remote caching"
+                },
+                {
+                    "bbox": [
+                        40.00299835205078,
+                        301.55169677734375,
+                        102.54621124267578,
+                        312.8396911621094
+                    ],
+                    "block_type": "heading",
+                    "content": "Data protection"
+                },
+                {
+                    "bbox": [
+                        206.9723358154297,
+                        286.4082946777344,
+                        454.10748291015625,
+                        327.7852783203125
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Application-consistent snapshot copies and restore capabilities\n•\t Integrated remote backup and disaster recovery\n•\t Synchronous zero-data-loss replication\n•\t Symmetric active-active multi-site replication for business continuity"
+                },
+                {
+                    "bbox": [
+                        40.00299835205078,
+                        369.4447937011719,
+                        139.71420288085938,
+                        380.7327880859375
+                    ],
+                    "block_type": "heading",
+                    "content": "Security and compliance"
+                },
+                {
+                    "bbox": [
+                        206.95835876464844,
+                        343.8013916015625,
+                        536.0559692382812,
+                        406.1783752441406
+                    ],
+                    "block_type": "body",
+                    "content": "•\t Automatic ransomware protection\n•\t Multifactor administrative access, multi-admin verification, dynamic authorization framework\n•\t Secure multitenant shared storage\n•\t Tamper-proof snapshots with SnapLock\n•\t In-flight and data-at-rest encryption\n•\t Regulatory-compliant data retention"
+                },
+                {
+                    "bbox": [
+                        40.00299835205078,
+                        422.19451904296875,
+                        487.49468994140625,
+                        434.1697998046875
+                    ],
+                    "block_type": "body",
+                    "content": "Cloud integration\n•\t Seamlessly tier, back up, replicate, and cache data to private and public clouds"
+                },
+                {
+                    "bbox": [
+                        414.23199462890625,
+                        755.2047119140625,
+                        449.74200439453125,
+                        762.2597045898438
+                    ],
+                    "block_type": "heading",
+                    "content": "DS-3582-1225"
+                }
+            ],
+            "content": "Contact Us © 2025 NetApp, Inc. All Rights Reserved. NETAPP, the NETAPP logo, and the marks listed at http://www.netapp.com/TM are trademarks of NetApp, Inc. Other company and product names may be trademarks of their respective owners. About NetApp NetApp is the intelligent data infrastructure company, combining unified data storage, integrated data services, and CloudOps solutions to turn a world of disruption into opportunity for every customer. NetApp creates silo-free infrastructure, harnessing observability and AI to enable the industry’s best data management. As the only enterprise- grade storage service natively embedded in the world’s biggest clouds, our data storage delivers seamless flexibility. In addition, our data services create a data advantage through superior cyber resilience, governance, and application agility. Our CloudOps solutions provide continuous optimization of performance and efficiency through observability and AI. No matter the data type, workload, or environment, with NetApp you can transform your data infrastructure to realize your business possibilities. www.netapp.com Table 2) AFF A-Series software Data access protocols • FC, iSCSI, NVMe/FC, NVMe/TCP, NFS, NFSv4/RDMA, SMB, S3 High availability • Active-active controller architecture • Nondisruptive maintenance, upgrade, and scale-out clustering • Multisite resiliency for continuous data access Storage efficiency • Inline data compression, deduplication, and compaction • Space-efficient LUN, file, and volume cloning • Automatic data tiering Data management • Intuitive onboard GUI, REST APIs, and automation integration • AI-informed predictive analytics and corrective action • QoS workload control • Easy provisioning and data management from market-leading host operating systems, hypervisors, and application software • Multisite copy caching for improved read and write performance over distance Scalable NAS • Large-scale single namespace management with local and remote caching Data protection • Application-consistent snapshot copies and restore capabilities • Integrated remote backup and disaster recovery • Synchronous zero-data-loss replication • Symmetric active-active multi-site replication for business continuity Security and compliance • Automatic ransomware protection • Multifactor administrative access, multi-admin verification, dynamic authorization framework • Secure multitenant shared storage • Tamper-proof snapshots with SnapLock • In-flight and data-at-rest encryption • Regulatory-compliant data retention Cloud integration • Seamlessly tier, back up, replicate, and cache data to private and public clouds DS-3582-1225"
+        },
+        {
+            "page": 1,
+            "section": "Powerful. Intelligent. Secure.",
+            "type": "image",
+            "path": "output/NetApp-DS-3582-1225-AFF-A-Series_images/page_1_0.png",
+            "image_type": "3D rendering",
+            "title": "",
+            "image_caption": "Stacked NetApp storage units with a gradient yellow background",
+            "diagram_summary": "The image depicts a 3D rendering of stacked NetApp storage units. The units are arranged in a staggered formation, with each unit featuring the NetApp logo. The background is a gradient of yellow shades, giving a modern and clean aesthetic to the image.",
+            "key_points": [
+                "3D rendering of NetApp storage units",
+                "Stacked in a staggered formation",
+                "Each unit has the NetApp logo",
+                "Gradient yellow background"
+            ]
+        },
+        {
+            "page": 4,
+            "section": "Increase operational efficiency for",
+            "type": "image",
+            "path": "output/NetApp-DS-3582-1225-AFF-A-Series_images/page_4_0.png",
+            "image_type": "photograph",
+            "title": "",
+            "image_caption": "A train crossing a large, arched metal bridge with a scenic background of a hillside and trees under a partly cloudy sky.",
+            "diagram_summary": "",
+            "key_points": [
+                "A train is in motion on a bridge.",
+                "The bridge has a prominent arched metal structure.",
+                "The background features a hillside with greenery and a partly cloudy sky."
+            ]
+        },
+        {
+            "page": 5,
+            "section": "Table 1) AFF A-Series technical specifications",
+            "type": "table",
+            "text": "Maximum scale-out | AFF A1K: 2–24 nodes\n(12 HA pairs) | AFF A90: 2–24 nodes\n(12 HA pairs) | AFF A70: 2–24 nodes\n(12 HA pairs) | AFF A50: 2–24 nodes\n(12 HA pairs) | AFF A30: 2-8 nodes\n(4 HA pairs) | AFF A20: 2–6 nodes\n(3 HA pairs)\nMaximum SSDs | AFF A1K: 2880 | AFF A90: 2880 | AFF A70: 2880 | AFF A50: 1440 | AFF A30: 288 | AFF A20: 144\nMaximum effective\ncapacity1 | AFF A1K: 330PB | AFF A90: 330PB | AFF A70: 330PB | AFF A50: 186PB | AFF A30: 36.2PB | AFF A20: 18.8PB\nController chassis\nform factor | AFF A1K: 2X2U | AFF A90: 4U; 48 internal\nSSD slots | AFF A70: 4U; 48 internal\nSSD slots | AFF A50: 2U; 24 internal\nSSD slots | AFF A30: 2U; 24 internal\nSSD slots | AFF A20: 2U; 24 internal\nSSD slots\nPower consumption\n(median) | AFF A1K: 2718W\n(with NS224) | AFF A90: 1950W | AFF A70: 1232W | AFF A50: 512W | AFF A30: 495W | AFF A20: 432W\nPCIe expansion slots | AFF A1K: 18 | AFF A90: 18 | AFF A70: 18 | AFF A50: 8 | AFF A30: 8 | AFF A20: 8\nFC target ports\n(64Gb autoranging) | AFF A1K: 48 | AFF A90: 56 | AFF A70: 56 | AFF A50: 24 | AFF A30: 24 | AFF A20: 24\nFC target ports\n(32Gb autoranging) | AFF A1K: 48 | AFF A90: 56 | AFF A70: 56 | AFF A50: 24 | AFF A30: 24 | AFF A20: 24\nFC target ports\n(16Gb autoranging) | AFF A1K: 48 | AFF A90: 56 | AFF A70: 56 | AFF A50: 24 | AFF A30: 24 | AFF A20: 24\nFCoE target ports,\nU TA2 | AFF A1K: n/a | AFF A90: n/a | AFF A70: n/a | AFF A50: 64 | AFF A30: n/a | AFF A20: n/a\n200GbE ports\n(100GbE/40GbE\nautoranging) | AFF A1K: 24 | AFF A90: 24 | AFF A70: 24 | AFF A50: n/a | AFF A30: n/a | AFF A20: n/a\n100GbE ports\n(40GbE autoranging) | AFF A1K: 36 | AFF A90: 36 | AFF A70: 36 | AFF A50: 16 | AFF A30: 16 | AFF A20: 12\n25GbE ports\n(10GbE autoranging) | AFF A1K: 48 | AFF A90: 56 | AFF A70: 56 | AFF A50: 24 | AFF A30: 24 | AFF A20: 32\n10GbE ports | AFF A1K: 48 | AFF A90: 56 | AFF A70: 56 | AFF A50: 24 | AFF A30: 24 | AFF A20: 24\n10GBASE-T\n(1GbE autoranging) | AFF A1K: 48 | AFF A90: 56 | AFF A70: 56 | AFF A50: 24 | AFF A30: 24 | AFF A20: 24\n12Gb/6Gb SAS ports | AFF A1K: n/a | AFF A90: n/a | AFF A70: n/a | AFF A50: 16 | AFF A30: 16 | AFF A20: 16\nOS version | AFF A1K: ONTAP 9.15.1\nor later | AFF A90: ONTAP 9.15.1\nor later | AFF A70: ONTAP 9.15.1\nor later | AFF A50: ONTAP 9.16.1\nor later | AFF A30: ONTAP 9.16.1\nor later | AFF A20: ONTAP 9.16.1\nor later\nShelves and media | AFF A1K: NS224 (2U, 24\ndrives, SFF NVMe) | AFF A90: NS224 (2U, 24\ndrives, SFF NVMe) | AFF A70: NS224 (2U, 24\ndrives, SFF NVMe) | AFF A50: NS224 (2U, 24\ndrives, SFF NVMe) | AFF A30: NS224 (2U, 24\ndrives, SFF NVMe) | AFF A20: NS224 (2U, 24\ndrives, SFF NVMe)\nHost/client OS\nsupported | AFF A1K: Windows Server, Linux, Oracle Solaris, AIX, HP-UX, macOS, VMware, ESX"
+        },
+        {
+            "page": 6,
+            "section": "Contact Us",
+            "type": "table",
+            "text": "Data access protocols: • FC, iSCSI, NVMe/FC, NVMe/TCP, NFS, NFSv4/RDMA, SMB, S3\nHigh availability: • Active-active controller architecture\n• Nondisruptive maintenance, upgrade, and scale-out clustering\n• Multisite resiliency for continuous data access\nStorage efficiency: • Inline data compression, deduplication, and compaction\n• Space-efficient LUN, file, and volume cloning\n• Automatic data tiering\nData management: • Intuitive onboard GUI, REST APIs, and automation integration\n• AI-informed predictive analytics and corrective action\n• QoS workload control\n• Easy provisioning and data management from market-leading host operating systems, hypervisors,\nand application software\n• Multisite copy caching for improved read and write performance over distance\nScalable NAS: • Large-scale single namespace management with local and remote caching\nData protection: • Application-consistent snapshot copies and restore capabilities\n• Integrated remote backup and disaster recovery\n• Synchronous zero-data-loss replication\n• Symmetric active-active multi-site replication for business continuity\nSecurity and compliance: • Automatic ransomware protection\n• Multifactor administrative access, multi-admin verification, dynamic authorization framework\n• Secure multitenant shared storage\n• Tamper-proof snapshots with SnapLock\n• In-flight and data-at-rest encryption\n• Regulatory-compliant data retention\nCloud integration: • Seamlessly tier, back up, replicate, and cache data to private and public clouds"
+        }
+    ]
+}

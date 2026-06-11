@@ -1,6 +1,11 @@
 import re
 from collections import Counter
 
+HEADER_FOOTER_PATTERNS = [
+    r"NetApp Datasheet\s+\d+",
+    r"DATASHEET",
+]
+
 
 def remove_repeated_lines(
     pages
@@ -80,6 +85,15 @@ def clean_text(text):
 
     if not text:
         return ""
+
+    # remove header/footer patterns
+    for pattern in HEADER_FOOTER_PATTERNS:
+        text = re.sub(
+            pattern,
+            "",
+            text,
+            flags=re.IGNORECASE
+        )
 
     # remove standalone page numbers
     text = re.sub(

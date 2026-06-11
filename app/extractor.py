@@ -1,6 +1,7 @@
 import os
 import json
 import asyncio
+import hashlib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import fitz
@@ -67,6 +68,12 @@ def extract_text_easyocr(pdf_path: str) -> list:
 # ─────────────────────────────────────────
 # Section title detection
 # ─────────────────────────────────────────
+IGNORE_HEADINGS = {
+    "NETAPP",
+    "DATASHEET",
+    "AFF A-SERIES"
+}
+
 def detect_section_title(page) -> str:
     blocks = page.get_text("dict")
     candidates = []
@@ -81,6 +88,8 @@ def detect_section_title(page) -> str:
                     continue
                 if text in ["•", "-", "*"]:
                     continue
+                if text.upper() in IGNORE_HEADINGS:
+                    continue
                 candidates.append({
                     "text": text,
                     "size": span["size"]
@@ -91,6 +100,22 @@ def detect_section_title(page) -> str:
 
     candidates.sort(key=lambda x: x["size"], reverse=True)
     return candidates[0]["text"]
+
+
+# ─────────────────────────────────────────
+# Layout classification
+# ─────────────────────────────────────────
+def classify_block(text):
+    text = text.strip()
+
+    if len(text) < 20:
+        return "heading"
+
+    if text.isupper() or text[0].isupper():
+        if len(text.split()) <= 5:
+            return "heading"
+
+    return "body"
 
 
 # ─────────────────────────────────────────
@@ -106,7 +131,7 @@ def detect_layout(page) -> list:
                 continue
             layout.append({
                 "bbox": [block[0], block[1], block[2], block[3]],
-                "block_type": "text",
+                "block_type": classify_block(text),
                 "content": text.strip()
             })
         except Exception:
@@ -117,30 +142,54 @@ def detect_layout(page) -> list:
 # ─────────────────────────────────────────
 # Save image to disk — returns path or None
 # ─────────────────────────────────────────
-def save_image(doc, xref: int, page_num: int, img_index: int, image_output_dir: str):
+def save_image(
+    doc,
+    xref,
+    page_num,
+    img_index,
+    image_output_dir,
+    image_hashes
+):
+
     try:
+
         pix = fitz.Pixmap(doc, xref)
 
         if pix.width < 150 or pix.height < 150:
             return None
 
-        base_image = doc.extract_image(xref)
-        image_bytes = base_image["image"]
+        if pix.alpha:
+            pix = fitz.Pixmap(fitz.csRGB, pix)
 
-        if len(image_bytes) < 10000:
+        image_hash = hashlib.md5(pix.samples).hexdigest()
+
+        if image_hash in image_hashes:
+
+            print(
+                f"Duplicate image skipped "
+                f"(page={page_num+1})"
+            )
+
             return None
 
-        ext = base_image["ext"]
-        image_name = f"page_{page_num + 1}_{img_index}.{ext}"
-        image_path = os.path.join(image_output_dir, image_name)
+        image_hashes.add(image_hash)
 
-        with open(image_path, "wb") as f:
-            f.write(image_bytes)
+        image_name = f"page_{page_num+1}_{img_index}.png"
+        image_path = os.path.join(
+            image_output_dir,
+            image_name
+        )
+
+        pix.save(image_path)
 
         return image_path
 
     except Exception as e:
-        print(f"Save Image Error: {e}")
+
+        print(
+            f"Save Image Error: {e}"
+        )
+
         return None
 
 
@@ -158,6 +207,7 @@ async def extract_pdf_content_async(
 
     content = []
     image_tasks = []  # (coroutine, metadata)
+    image_hashes = set()
 
     for page_num in range(len(doc)):
         page = doc[page_num]
@@ -176,9 +226,14 @@ async def extract_pdf_content_async(
         if skip_images:
             continue
 
-        for img_index, img in enumerate(page.get_images(full=True)):
+        images = page.get_images(full=True)
+
+        if not images:
+            continue
+
+        for img_index, img in enumerate(images):
             xref = img[0]
-            image_path = save_image(doc, xref, page_num, img_index, image_output_dir)
+            image_path = save_image(doc, xref, page_num, img_index, image_output_dir, image_hashes)
 
             if image_path:
                 image_tasks.append({
@@ -234,6 +289,33 @@ async def extract_pdf_content(
 
 
 
+
+
+# ─────────────────────────────────────────
+# Table validity check
+# ─────────────────────────────────────────
+def is_valid_table(table) -> bool:
+
+    if not table:
+        return False
+
+    rows = len(table)
+    cols = max((len(row) for row in table if row), default=0)
+
+    if rows < 2 or cols < 2:
+        return False
+
+    non_empty_cells = sum(
+        1
+        for row in table
+        for cell in row
+        if cell and str(cell).strip()
+    )
+
+    if non_empty_cells < 3:
+        return False
+
+    return True
 
 
 # ─────────────────────────────────────────
@@ -328,6 +410,9 @@ def extract_tables(pdf_path: str) -> list:
             for table in tables:
 
                 try:
+
+                    if not is_valid_table(table):
+                        continue
 
                     table_text = table_to_text(
                         table

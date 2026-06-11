@@ -102,11 +102,15 @@ async def upload_pdf(
     normalized_docs = normalize_content(output)
 
     print(
-    [
-        x["source_type"]
-        for x in normalized_docs
-    ]
-)
+        [
+            x.get("source_type") if "source_type" in x else (
+                "table" if x.get("metadata", {}).get("has_table") else
+                "image" if x.get("metadata", {}).get("has_image") else
+                "text" if x.get("metadata", {}).get("has_text") else None
+            )
+            for x in normalized_docs
+        ]
+    )
 
     # ── Save JSON files ──
     output_file = OUTPUT_DIR / f"{file_path.stem}.json"
@@ -119,7 +123,7 @@ async def upload_pdf(
         json.dump(normalized_docs, f, indent=4, ensure_ascii=False)
 
     logger.info(f"Raw Output: {output_file}")
-    logger.info(f"Normalized Output: {normalized_file} — {len(normalized_docs)} chunks")
+    logger.info(f"Normalized Output: {normalized_file}")
 
     return {
         "file_name": file.filename,

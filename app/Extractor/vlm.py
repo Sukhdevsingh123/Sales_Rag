@@ -1,10 +1,16 @@
+import os
 import base64
 import json
 import asyncio
 import httpx
+from dotenv import load_dotenv
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "qwen2.5vl:7b"
+
+load_dotenv()
+
+OLLAMA_URL = os.getenv("OLLAMA_URL")
+
+MODEL_NAME = os.getenv("VISION_MODEL")
 
 
 def image_to_base64(image_path: str) -> str:

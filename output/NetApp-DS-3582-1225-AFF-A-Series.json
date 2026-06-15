@@ -1256,15 +1256,15 @@
             "section": "Powerful. Intelligent. Secure.",
             "type": "image",
             "path": "output/NetApp-DS-3582-1225-AFF-A-Series_images/page_1_0.png",
-            "image_type": "3D rendering",
+            "image_type": "decorative_image",
             "title": "",
-            "image_caption": "Stacked NetApp storage units with a gradient yellow background",
-            "diagram_summary": "The image depicts a 3D rendering of stacked NetApp storage units. The units are arranged in a staggered formation, with each unit featuring the NetApp logo. The background is a gradient of yellow shades, giving a modern and clean aesthetic to the image.",
+            "image_caption": "Stack of NetApp-branded storage units",
+            "diagram_summary": "",
             "key_points": [
-                "3D rendering of NetApp storage units",
-                "Stacked in a staggered formation",
-                "Each unit has the NetApp logo",
-                "Gradient yellow background"
+                "Stacked NetApp storage units",
+                "Focus on NetApp branding",
+                "Visual representation of storage solutions",
+                "Emphasis on scalability and reliability"
             ]
         },
         {
@@ -1272,14 +1272,15 @@
             "section": "Increase operational efficiency for",
             "type": "image",
             "path": "output/NetApp-DS-3582-1225-AFF-A-Series_images/page_4_0.png",
-            "image_type": "photograph",
+            "image_type": "decorative_image",
             "title": "",
-            "image_caption": "A train crossing a large, arched metal bridge with a scenic background of a hillside and trees under a partly cloudy sky.",
+            "image_caption": "A train crossing a metal arch bridge.",
             "diagram_summary": "",
             "key_points": [
-                "A train is in motion on a bridge.",
-                "The bridge has a prominent arched metal structure.",
-                "The background features a hillside with greenery and a partly cloudy sky."
+                "A train is traveling on a bridge.",
+                "The bridge has a metal arch structure.",
+                "The sky is partly cloudy.",
+                "The bridge is located over a natural landscape."
             ]
         },
         {

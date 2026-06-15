@@ -1,118 +1,101 @@
-import { useState } from "react";
+import { useEffect } from "react";
+import { Toaster } from "sonner";
+import { AnimatePresence, motion } from "framer-motion";
 
-function App() {
-  const [file, setFile] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [result, setResult] = useState(null);
+import Sidebar from "./components/Sidebar";
+import ChatPanel from "./components/ChatPanel";
+import RightPanel from "./components/RightPanel";
 
+import { useStore } from "./store/store";
 
-  // console.log(result.text);
-  const uploadPdf = async () => {
-    if (!file) {
-      alert("Please select a PDF");
-      return;
-    }
+import "./styles/globals.css";
 
-    try {
-      setLoading(true);
-      setResult(null);
+export default function App() {
+  const {
+    init,
+    sidebarOpen,
+    setSidebarOpen,
+  } = useStore();
 
-      const formData = new FormData();
-      formData.append("file", file);
-
-      const response = await fetch(
-        "http://192.168.11.57:9000/upload",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
-
-      if (!response.ok) {
-        throw new Error(
-          `HTTP Error ${response.status}`
-        );
-      }
-
-      const data = await response.json();
-
-      setResult(data);
-
-    } catch (error) {
-      console.error(error);
-      alert(error.message);
-    } finally {
-      setLoading(false);
-    }
-
-    
-  };
+  useEffect(() => {
+    init();
+  }, []);
 
   return (
-    <div
-      style={{
-        maxWidth: "1000px",
-        margin: "40px auto",
-        fontFamily: "Arial",
-        padding: "20px",
-      }}
-    >
-      <h1>PDF OCR Extractor</h1>
+    <div className="flex h-screen w-full bg-background text-foreground">
+      {/* Desktop Sidebar */}
 
-      <input
-        type="file"
-        accept=".pdf"
-        onChange={(e) =>
-          setFile(e.target.files[0])
-        }
-      />
+      <div className="">
+        <Sidebar />
+      </div>
 
-      <br />
-      <br />
+      {/* Mobile Sidebar */}
 
-      <button
-        onClick={uploadPdf}
-        disabled={loading}
-      >
-        {loading
-          ? "Processing..."
-          : "Upload & Extract"}
-      </button>
-
-      {result && (
-        <div
-          style={{
-            marginTop: "30px",
-            border: "1px solid #ccc",
-            padding: "20px",
-            borderRadius: "10px",
-          }}
-        >
-          <h3>Extraction Result</h3>
-
-          <p>
-            <strong>File:</strong>{" "}
-            {result.file_name}
-          </p>
-
-          <p>
-            <strong>Method:</strong>{" "}
-            {result.extraction_method}
-          </p>
-
-          <textarea
-            value={result.text}
-            readOnly
-            rows={20}
-            style={{
-              width: "100%",
-              marginTop: "10px",
+      <AnimatePresence>
+        {sidebarOpen && (
+          <motion.div
+            className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm "
+            initial={{
+              opacity: 0,
             }}
-          />
-        </div>
-      )}
+            animate={{
+              opacity: 1,
+            }}
+            exit={{
+              opacity: 0,
+            }}
+            onClick={() =>
+              setSidebarOpen(false)
+            }
+          >
+            <motion.div
+              className="h-full w-[280px]"
+              initial={{
+                x: -300,
+              }}
+              animate={{
+                x: 0,
+              }}
+              exit={{
+                x: -300,
+              }}
+              transition={{
+                type: "spring",
+                damping: 25,
+              }}
+              onClick={(e) =>
+                e.stopPropagation()
+              }
+            >
+              <Sidebar />
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Main Chat */}
+
+      <ChatPanel />
+
+      {/* Analytics */}
+
+      <RightPanel />
+
+      {/* Toast */}
+
+      <Toaster
+        theme="dark"
+        position="bottom-right"
+        toastOptions={{
+          style: {
+            background:
+              "rgb(22,22,22)",
+            border:
+              "1px solid rgba(255,255,255,0.1)",
+            color: "#fff",
+          },
+        }}
+      />
     </div>
   );
 }
-
-export default App;

@@ -110,7 +110,7 @@ def normalize_content(extracted_json: Dict) -> List[Dict]:
         parts = []
         if text:
             parts.append(text)
-        if table_text:
+        if table_text and table_text not in text:
             parts.append(f"[TABLE]\n{table_text}")
         if image_text:
             parts.append(f"[IMAGE]\n{image_text}")

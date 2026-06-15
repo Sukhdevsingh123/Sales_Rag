@@ -18,7 +18,12 @@ from app.Extractor.normalizer import (
     normalize_content
 )
 
-router = APIRouter()
+
+from app.sales_rag.ingestion.ingest import (
+    ingest_normalized_file
+)
+
+router = APIRouter( prefix="/upload",tags=["Extraction"])
 
 logger = logging.getLogger(__name__)
 
@@ -144,12 +149,17 @@ async def upload_pdf(
     logger.info(
         f"Normalized Output: {normalized_file}"
     )
+    
+    
+    ingestion_result = ( ingest_normalized_file(str(normalized_file)) )
 
     return {
         "file_name": file.filename,
         "total_pages": len(text_pages),
         "total_chunks": len(normalized_docs),
         "skip_images": skip_images,
-        "content": cleaned_content
+        "ingested_chunks": ingestion_result["chunks"]
+        
+        #  "content": cleaned_content //for debugging,cleaned data of pdf that 
     }
 

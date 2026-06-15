@@ -4,6 +4,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.routes.extractor_routes import router as extractor_router
+from app.routes.rag_routes import router as rag_router
+
 
 logging.basicConfig(level=logging.INFO)
 
@@ -21,4 +23,7 @@ app.add_middleware(
 
 app.include_router(
     extractor_router
+)
+app.include_router(
+    rag_router
 )

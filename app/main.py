@@ -5,12 +5,17 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.routes.extractor_routes import router as extractor_router
 from app.routes.rag_routes import router as rag_router
+from app.routes.auth_routes import router as auth_router
+from app.core.database import engine
+from app.core.models import Base
 
+# Create database tables
+Base.metadata.create_all(bind=engine)
 
 logging.basicConfig(level=logging.INFO)
 
 app = FastAPI(
-    title="PDF Extractor API"
+    title="PDF RAG API with Authentication"
 )
 
 app.add_middleware(
@@ -21,6 +26,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(
+    auth_router
+)
 app.include_router(
     extractor_router
 )

@@ -2,7 +2,8 @@ from pathlib import Path
 import json
 import logging
 
-from fastapi import APIRouter, UploadFile, File, Query
+from fastapi import APIRouter, UploadFile, File, Query, Depends
+from sqlalchemy.orm import Session
 
 from app.Extractor.extractor import (
     extract_pdf_content,
@@ -18,10 +19,13 @@ from app.Extractor.normalizer import (
     normalize_content
 )
 
-
 from app.sales_rag.ingestion.ingest import (
     ingest_normalized_file
 )
+
+from app.core.dependencies import require_admin, require_admin_or_test
+from app.core.database import get_db
+from app.core.models import User
 
 router = APIRouter( prefix="/upload",tags=["Extraction"])
 
@@ -47,10 +51,12 @@ async def upload_pdf(
     skip_images: bool = Query(
         default=False,
         description="Skip VLM image captioning for faster processing"
-    )
+    ),
+    current_user: User = Depends(require_admin_or_test)
 ):
+    """Upload and process PDF (admin/test only)."""
     logger.info(
-        f"Received File: {file.filename} | skip_images={skip_images}"
+        f"Received File: {file.filename} | skip_images={skip_images} | User: {current_user.email}"
     )
 
     file_path = INPUT_DIR / file.filename

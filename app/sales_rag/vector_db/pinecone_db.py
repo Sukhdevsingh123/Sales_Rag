@@ -81,3 +81,26 @@ def get_index():
     return pc.Index(
         PINECONE_INDEX
     )
+
+
+
+
+
+# _INDEX = None
+
+
+# def get_index():
+
+#     global _INDEX
+
+#     if _INDEX is None:
+
+#         create_index_if_not_exists()
+
+#         pc = get_pinecone_client()
+
+#         _INDEX = pc.Index(
+#             PINECONE_INDEX
+#         )
+
+#     return _INDEX

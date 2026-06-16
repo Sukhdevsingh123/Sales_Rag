@@ -1,18 +1,18 @@
-import { useEffect, useMemo, useRef, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
 
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import {
+  oneDark,
+  oneLight,
+} from "react-syntax-highlighter/dist/esm/styles/prism";
 
 import {
   Settings,
-  ChevronDown,
   Send,
-  Paperclip,
-  Mic,
   Copy,
   ThumbsUp,
   ThumbsDown,
@@ -20,9 +20,10 @@ import {
   Sparkles,
   Search,
   BarChart3,
-  Pencil,
-  PanelRightOpen,
+  Moon,
+  Sun,
   Menu,
+  PanelRightOpen,
 } from "lucide-react";
 
 import {
@@ -64,25 +65,23 @@ function Avatar({ role }) {
 
 function SourceChip({ source }) {
   return (
-    <button
-      className="inline-flex items-center gap-1 rounded-full border border-white/10 bg-white/[0.03] px-2 py-1 text-[10px] text-gray-400"
-    >
+    <button className="theme-surface inline-flex items-center gap-1 rounded-full border px-2 py-1 text-[10px] theme-muted">
       <FileText className="h-3 w-3" />
 
-      <span>
-        {source.file_name}
-      </span>
+      <span>{source.file_name}</span>
 
-      <span className="text-cyan-400">
-        p{source.page}
-      </span>
+      <span className="text-cyan-400">p{source.page}</span>
     </button>
   );
 }
 
-function Markdown({ children }) {
+function Markdown({ children, theme }) {
   return (
-    <div className="prose prose-invert max-w-none text-sm">
+    <div
+      className={`max-w-none text-sm ${
+        theme === "dark" ? "prose prose-invert" : "prose prose-slate"
+      }`}
+    >
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{
@@ -92,40 +91,22 @@ function Markdown({ children }) {
             children,
             ...props
           }) {
-            const match =
-              /language-(\w+)/.exec(
-                className || ""
-              );
+            const match = /language-(\w+)/.exec(className || "");
 
-            if (
-              !inline &&
-              match
-            ) {
+            if (!inline && match) {
               return (
                 <SyntaxHighlighter
-                  language={
-                    match[1]
-                  }
-                  style={
-                    oneDark
-                  }
+                  language={match[1]}
+                  style={theme === "dark" ? oneDark : oneLight}
                   PreTag="div"
                 >
-                  {String(
-                    children
-                  ).replace(
-                    /\n$/,
-                    ""
-                  )}
+                  {String(children).replace(/\n$/, "")}
                 </SyntaxHighlighter>
               );
             }
 
             return (
-              <code
-                className="rounded bg-black/30 px-1 py-0.5"
-                {...props}
-              >
+              <code className="theme-code rounded px-1 py-0.5" {...props}>
                 {children}
               </code>
             );
@@ -147,17 +128,13 @@ function Typing() {
         <span className="typing-dot"></span>
       </div>
 
-      <div className="flex items-center gap-2 text-[11px] text-gray-400">
+      <div className="flex items-center gap-2 text-[11px] theme-muted">
         <Search className="h-3 w-3" />
         Retrieving
-
-        →
-
+        <span>→</span>
         <BarChart3 className="h-3 w-3" />
         Analyzing
-
-        →
-
+        <span>→</span>
         <Sparkles className="h-3 w-3" />
         Generating
       </div>
@@ -166,123 +143,84 @@ function Typing() {
 }
 
 function MessageBubble({ message }) {
-  const isUser =
-    message.role === "user";
+  const theme = useStore((state) => state.theme);
+  const isUser = message.role === "user";
 
-  const copyMessage =
-    async () => {
-      await navigator.clipboard.writeText(
-        message.content
-      );
-
-      toast.success(
-        "Copied"
-      );
-    };
+  const copyMessage = async () => {
+    await navigator.clipboard.writeText(message.content);
+    toast.success("Copied");
+  };
 
   return (
     <motion.div
-      initial={{
-        opacity: 0,
-        y: 15,
-      }}
-      animate={{
-        opacity: 1,
-        y: 0,
-      }}
-      className={`flex gap-3 ${
-        isUser
-          ? "flex-row-reverse"
-          : ""
-      }`}
+      initial={{ opacity: 0, y: 15 }}
+      animate={{ opacity: 1, y: 0 }}
+      className={`flex gap-3 ${isUser ? "flex-row-reverse" : ""}`}
     >
-      <Avatar
-        role={message.role}
-      />
+      <Avatar role={message.role} />
 
-      <div
-        className={`max-w-[80%] ${
-          isUser
-            ? "items-end"
-            : ""
-        } flex flex-col`}
-      >
+      <div className={`flex max-w-[80%] flex-col ${isUser ? "items-end" : ""}`}>
         <div
           className={`rounded-2xl px-4 py-3 ${
             isUser
               ? "bg-gradient-to-r from-violet-500 to-cyan-500 text-white"
-              : "border border-white/5 bg-white/[0.03]"
+              : "theme-surface border"
           }`}
         >
           {message.pending ? (
             <Typing />
           ) : isUser ? (
-            <div className="whitespace-pre-wrap">
-              {message.content}
-            </div>
+            <div className="whitespace-pre-wrap">{message.content}</div>
           ) : (
-            <Markdown>
-              {message.content}
-            </Markdown>
+            <Markdown theme={theme}>{message.content}</Markdown>
           )}
         </div>
 
-        {!isUser &&
-          !message.pending &&
-          message.sources?.length >
-            0 && (
-            <div className="mt-2 flex flex-wrap gap-1">
-              {message.sources.map(
-                (
-                  source,
-                  index
-                ) => (
-                  <SourceChip
-                    key={
-                      index
-                    }
-                    source={
-                      source
-                    }
-                  />
-                )
-              )}
-            </div>
-          )}
+        {!isUser && !message.pending && message.sources?.length > 0 && (
+          <div className="mt-2 flex flex-wrap gap-1">
+            {message.sources.map((source, index) => (
+              <SourceChip key={index} source={source} />
+            ))}
+          </div>
+        )}
 
-        {!isUser &&
-          !message.pending && (
-            <div className="mt-2 flex items-center gap-3 text-xs text-gray-500">
-              <button
-                onClick={
-                  copyMessage
-                }
-              >
-                <Copy className="h-3 w-3" />
-              </button>
+        {!isUser && !message.pending && (
+          <div className="mt-2 flex items-center gap-3 text-xs theme-subtle">
+            <button onClick={copyMessage}>
+              <Copy className="h-3 w-3" />
+            </button>
 
-              <button>
-                <ThumbsUp className="h-3 w-3" />
-              </button>
+            <button>
+              <ThumbsUp className="h-3 w-3" />
+            </button>
 
-              <button>
-                <ThumbsDown className="h-3 w-3" />
-              </button>
+            <button>
+              <ThumbsDown className="h-3 w-3" />
+            </button>
 
-              {message.meta && (
-                <span>
-                  {
-                    message
-                      .meta
-                      .ms
-                  }
-                  ms
-                </span>
-              )}
-            </div>
-          )}
+            {message.meta && <span>{message.meta.ms} ms</span>}
+          </div>
+        )}
       </div>
     </motion.div>
+  );
+}
+
+function ThemeToggle() {
+  const theme = useStore((state) => state.theme);
+  const toggleTheme = useStore((state) => state.toggleTheme);
+  const Icon = theme === "dark" ? Sun : Moon;
+
+  return (
+    <button
+      type="button"
+      onClick={toggleTheme}
+      className="theme-input theme-hover inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm"
+      aria-label="Toggle theme"
+    >
+      <Icon className="h-4 w-4" />
+      <span className="hidden sm:inline">{theme === "dark" ? "Light" : "Dark"}</span>
+    </button>
   );
 }
 
@@ -294,6 +232,9 @@ export default function ChatPanel() {
   const sendMessage = useStore((state) => state.sendMessage);
   const model = useStore((state) => state.model);
   const setModel = useStore((state) => state.setModel);
+  const setSidebarOpen = useStore((state) => state.setSidebarOpen);
+  const rightOpen = useStore((state) => state.rightOpen);
+  const setRightOpen = useStore((state) => state.setRightOpen);
 
   const messages = activeConv?.messages || [];
 
@@ -302,7 +243,6 @@ export default function ChatPanel() {
   }, [messages, activeConv?.id]);
 
   const handleSend = async (value) => {
-      console.log("SEND CLICKED");
     const trimmed = value.trim();
     if (!trimmed) return;
 
@@ -312,58 +252,77 @@ export default function ChatPanel() {
 
   return (
     <main className="flex h-full flex-1 flex-col overflow-hidden">
-      <div className="flex items-center justify-between border-b border-white/5 px-6 py-5 bg-[#09090a]">
-        <div>
-          <div className="text-base font-semibold text-white">
-            {activeConv?.title || "New Conversation"}
-          </div>
-          <div className="text-xs text-gray-400">
-            {messages.length} messages · {model}
+      <div className="theme-panel-strong theme-divider flex items-center justify-between border-b px-4 py-4 sm:px-6 sm:py-5">
+        <div className="flex items-center gap-3">
+          <button
+            type="button"
+            onClick={() => setSidebarOpen(true)}
+            className="theme-input theme-hover inline-flex items-center justify-center rounded-lg border p-2 lg:hidden"
+          >
+            <Menu className="h-4 w-4" />
+          </button>
+
+          <div>
+            <div className="text-base font-semibold">
+              {activeConv?.title || "New Conversation"}
+            </div>
+            <div className="text-xs theme-muted">
+              {messages.length} messages · {model}
+            </div>
           </div>
         </div>
 
-        <div className="flex items-center gap-2 text-xs text-gray-400">
-          <Settings className="h-4 w-4" />
-          <select
-            value={model}
-            onChange={(e) => setModel(e.target.value)}
-            className="rounded-lg border border-white/10 bg-[#0f1117] px-3 py-2 text-sm text-white shadow-sm outline-none ring-white/10 transition focus:ring-2"
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+
+          <button
+            type="button"
+            onClick={() => setRightOpen(!rightOpen)}
+            className="theme-input theme-hover hidden items-center justify-center rounded-lg border p-2 xl:inline-flex"
           >
-            {MODELS.map((item) => (
-              <option key={item} value={item}>
-                {item}
-              </option>
-            ))}
-          </select>
+            <PanelRightOpen className="h-4 w-4" />
+          </button>
+
+          <div className="hidden items-center gap-2 text-xs theme-muted sm:flex">
+            <Settings className="h-4 w-4" />
+            <select
+              value={model}
+              onChange={(e) => setModel(e.target.value)}
+              className="theme-input rounded-lg border px-3 py-2 text-sm shadow-sm outline-none transition focus:ring-2 focus:ring-cyan-400/20"
+            >
+              {MODELS.map((item) => (
+                <option key={item} value={item}>
+                  {item}
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
       </div>
 
-      <div className="flex-1 overflow-y-auto px-6 py-5">
+      <div className="flex-1 overflow-y-auto px-4 py-5 sm:px-6">
         {messages.length === 0 ? (
-          <div className="flex h-full items-center justify-center text-sm text-gray-500">
+          <div className="flex h-full items-center justify-center text-sm theme-subtle">
             Ask a question about your uploaded document.
           </div>
         ) : (
           <div className="space-y-4">
             {messages.map((message) => (
-              <MessageBubble
-                key={message.id}
-                message={message}
-              />
+              <MessageBubble key={message.id} message={message} />
             ))}
             <div ref={messagesEndRef} />
           </div>
         )}
       </div>
 
-      <div className="border-t border-white/5 bg-[#09090a] px-6 py-5">
+      <div className="theme-panel-strong theme-divider border-t px-4 py-5 sm:px-6">
         <div className="mb-4 flex flex-wrap gap-2 text-sm">
           {QUICK_PROMPTS.map((prompt) => (
             <button
               key={prompt}
               type="button"
               onClick={() => handleSend(prompt)}
-              className="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-xs text-gray-300 transition hover:bg-white/10"
+              className="theme-surface theme-hover rounded-full border px-3 py-2 text-xs theme-muted transition"
             >
               {prompt}
             </button>
@@ -381,7 +340,7 @@ export default function ChatPanel() {
               }
             }}
             placeholder="Type your question..."
-            className="min-h-[96px] flex-1 resize-none rounded-2xl border border-white/10 bg-[#0f1117] p-4 text-sm text-white outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/10"
+            className="theme-input min-h-[96px] flex-1 resize-none rounded-2xl border p-4 text-sm outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/10"
           />
 
           <button
@@ -389,7 +348,7 @@ export default function ChatPanel() {
             onClick={() => handleSend(question)}
             className="inline-flex h-12 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-r from-violet-500 to-cyan-500 px-5 text-sm font-semibold text-white transition hover:opacity-90"
           >
-            Send
+            <Send className="h-4 w-4" />
           </button>
         </div>
       </div>

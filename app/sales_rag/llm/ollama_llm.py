@@ -1,4 +1,5 @@
 import os
+import json
 import requests
 
 OLLAMA_URL = os.getenv(
@@ -28,7 +29,7 @@ Rules:
 2. Do not hallucinate.
 3. If answer is not present say:
    "The information is not available in the document."
-4. Give concise factual answers.
+4. Provide detailed answers.
 5. Cite page references if available.
 
 Context:
@@ -42,11 +43,11 @@ Question:
 Answer:
 """
 
-    payload = {
-        "model": LLM_MODEL,
-        "prompt": prompt,
-        "stream": False
-    }
+    # payload = {
+    #     "model": LLM_MODEL,
+    #     "prompt": prompt,
+    #     "stream": False
+    # }
 
     if not OLLAMA_URL:
         raise ValueError(
@@ -60,10 +61,22 @@ Answer:
 
     response = requests.post(
         OLLAMA_URL,
-        json=payload,
-        timeout=300
+        json={
+            "model": LLM_MODEL,
+            "prompt": prompt,
+            "stream": True
+        },
+        stream=True
     )
 
-    response.raise_for_status()
+    for line in response.iter_lines():
 
-    return response.json()["response"]
+        if not line:
+            continue
+
+        data = json.loads(
+            line.decode("utf-8")
+        )
+
+        if "response" in data:
+            yield data["response"]

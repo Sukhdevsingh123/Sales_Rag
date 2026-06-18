@@ -77,15 +77,108 @@ export const uploadPDF = async (file, skipImages = false) => {
 
 // ============ RAG APIs (Authenticated users) ============
 
-export const askQuestion = async (question) => {
-  const response = await API.post(
-    "/rag/ask",
+// export const askQuestion = async (question) => {
+//   const response = await API.post(
+//     "/rag/ask",
+//     {
+//       question,
+//     }
+//   );
+
+//   return response.data;
+// };
+
+
+
+
+export const askQuestion = async (
+  question,
+  onChunk,
+  onSources
+) => {
+
+  const token =
+    localStorage.getItem("token");
+
+  const response = await fetch(
+    `${import.meta.env.VITE_API_URL}/rag/ask`,
     {
-      question,
+      method: "POST",
+
+      headers: {
+        "Content-Type":
+          "application/json",
+
+        Authorization:
+          `Bearer ${token}`
+      },
+
+      body: JSON.stringify({
+        question
+      })
     }
   );
 
-  return response.data;
+  const reader =
+    response.body.getReader();
+
+  const decoder =
+    new TextDecoder();
+
+  while (true) {
+
+    const {
+      done,
+      value
+    } = await reader.read();
+
+    if (done) break;
+
+    const chunk =
+      decoder.decode(value);
+
+    const lines =
+      chunk.split("\n");
+
+    for (const line of lines) {
+
+      if (!line.trim())
+        continue;
+
+      try {
+
+        const data =
+          JSON.parse(line);
+
+        if (
+          data.type ===
+          "token"
+        ) {
+
+          onChunk(
+            data.content
+          );
+        }
+
+        if (
+          data.type ===
+          "sources"
+        ) {
+
+          onSources(
+            data.sources
+          );
+        }
+
+      } catch (err) {
+
+        console.log(
+          "Parse Error:",
+          err
+        );
+      }
+    }
+  }
 };
 
 export default API;

@@ -142,6 +142,71 @@ function Typing() {
   );
 }
 
+// function MessageBubble({ message }) {
+//   const theme = useStore((state) => state.theme);
+//   const isUser = message.role === "user";
+
+//   const copyMessage = async () => {
+//     await navigator.clipboard.writeText(message.content);
+//     toast.success("Copied");
+//   };
+
+//   return (
+//     <motion.div
+//       initial={{ opacity: 0, y: 15 }}
+//       animate={{ opacity: 1, y: 0 }}
+//       className={`flex gap-3 ${isUser ? "flex-row-reverse" : ""}`}
+//     >
+//       <Avatar role={message.role} />
+
+//       <div className={`flex max-w-[80%] flex-col ${isUser ? "items-end" : ""}`}>
+//         <div
+//           className={`rounded-2xl px-4 py-3 ${
+//             isUser
+//               ? "bg-gradient-to-r from-violet-500 to-cyan-500 text-white"
+//               : "theme-surface border"
+//           }`}
+//         >
+//           {message.pending ? (
+//             <Typing />
+//           ) : isUser ? (
+//             <div className="whitespace-pre-wrap">{message.content}</div>
+//           ) : (
+//             <Markdown theme={theme}>{message.content}</Markdown>
+//           )}
+//         </div>
+
+//         {!isUser && !message.pending && message.sources?.length > 0 && (
+//           <div className="mt-2 flex flex-wrap gap-1">
+//             {message.sources.map((source, index) => (
+//               <SourceChip key={index} source={source} />
+//             ))}
+//           </div>
+//         )}
+
+//         {!isUser && !message.pending && (
+//           <div className="mt-2 flex items-center gap-3 text-xs theme-subtle">
+//             <button onClick={copyMessage}>
+//               <Copy className="h-3 w-3" />
+//             </button>
+
+//             <button>
+//               <ThumbsUp className="h-3 w-3" />
+//             </button>
+
+//             <button>
+//               <ThumbsDown className="h-3 w-3" />
+//             </button>
+
+//             {message.meta && <span>{message.meta.ms} ms</span>}
+//           </div>
+//         )}
+//       </div>
+//     </motion.div>
+//   );
+// }
+
+
 function MessageBubble({ message }) {
   const theme = useStore((state) => state.theme);
   const isUser = message.role === "user";
@@ -159,7 +224,11 @@ function MessageBubble({ message }) {
     >
       <Avatar role={message.role} />
 
-      <div className={`flex max-w-[80%] flex-col ${isUser ? "items-end" : ""}`}>
+      <div
+        className={`flex max-w-[80%] flex-col ${
+          isUser ? "items-end" : ""
+        }`}
+      >
         <div
           className={`rounded-2xl px-4 py-3 ${
             isUser
@@ -168,39 +237,63 @@ function MessageBubble({ message }) {
           }`}
         >
           {message.pending ? (
-            <Typing />
+            <div>
+              <Markdown theme={theme}>
+                {message.content}
+              </Markdown>
+
+              <div className="mt-3">
+                <Typing />
+              </div>
+            </div>
           ) : isUser ? (
-            <div className="whitespace-pre-wrap">{message.content}</div>
+            <div className="whitespace-pre-wrap">
+              {message.content}
+            </div>
           ) : (
-            <Markdown theme={theme}>{message.content}</Markdown>
+            <Markdown theme={theme}>
+              {message.content}
+            </Markdown>
           )}
         </div>
 
-        {!isUser && !message.pending && message.sources?.length > 0 && (
-          <div className="mt-2 flex flex-wrap gap-1">
-            {message.sources.map((source, index) => (
-              <SourceChip key={index} source={source} />
-            ))}
-          </div>
-        )}
+        {!isUser &&
+          !message.pending &&
+          message.sources?.length > 0 && (
+            <div className="mt-2 flex flex-wrap gap-1">
+              {message.sources.map(
+                (source, index) => (
+                  <SourceChip
+                    key={index}
+                    source={source}
+                  />
+                )
+              )}
+            </div>
+          )}
 
-        {!isUser && !message.pending && (
-          <div className="mt-2 flex items-center gap-3 text-xs theme-subtle">
-            <button onClick={copyMessage}>
-              <Copy className="h-3 w-3" />
-            </button>
+        {!isUser &&
+          !message.pending && (
+            <div className="mt-2 flex items-center gap-3 text-xs theme-subtle">
+              <button onClick={copyMessage}>
+                <Copy className="h-3 w-3" />
+              </button>
 
-            <button>
-              <ThumbsUp className="h-3 w-3" />
-            </button>
+              <button>
+                <ThumbsUp className="h-3 w-3" />
+              </button>
 
-            <button>
-              <ThumbsDown className="h-3 w-3" />
-            </button>
+              <button>
+                <ThumbsDown className="h-3 w-3" />
+              </button>
 
-            {message.meta && <span>{message.meta.ms} ms</span>}
-          </div>
-        )}
+              {message.meta && (
+                <span>
+                  {message.meta.ms} ms
+                </span>
+              )}
+            </div>
+          )}
       </div>
     </motion.div>
   );
@@ -355,3 +448,4 @@ export default function ChatPanel() {
     </main>
   );
 }
+

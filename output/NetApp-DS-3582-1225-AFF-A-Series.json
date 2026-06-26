@@ -1256,32 +1256,22 @@
             "section": "Powerful. Intelligent. Secure.",
             "type": "image",
             "path": "output/NetApp-DS-3582-1225-AFF-A-Series_images/page_1_0.png",
-            "image_type": "decorative_image",
+            "image_type": "",
             "title": "",
-            "image_caption": "Stack of NetApp-branded storage units",
+            "image_caption": "",
             "diagram_summary": "",
-            "key_points": [
-                "Stacked NetApp storage units",
-                "Focus on NetApp branding",
-                "Visual representation of storage solutions",
-                "Emphasis on scalability and reliability"
-            ]
+            "key_points": []
         },
         {
             "page": 4,
             "section": "Increase operational efficiency for",
             "type": "image",
             "path": "output/NetApp-DS-3582-1225-AFF-A-Series_images/page_4_0.png",
-            "image_type": "decorative_image",
+            "image_type": "",
             "title": "",
-            "image_caption": "A train crossing a metal arch bridge.",
+            "image_caption": "",
             "diagram_summary": "",
-            "key_points": [
-                "A train is traveling on a bridge.",
-                "The bridge has a metal arch structure.",
-                "The sky is partly cloudy.",
-                "The bridge is located over a natural landscape."
-            ]
+            "key_points": []
         },
         {
             "page": 5,

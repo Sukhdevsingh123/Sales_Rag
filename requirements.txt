@@ -12,6 +12,9 @@ httpx
 tabulate
 sentence-transformers
 pinecone
+langchain-ollama
+
+
 
 sqlalchemy
 psycopg2-binary

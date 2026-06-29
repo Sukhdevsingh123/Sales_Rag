@@ -850,33 +850,22 @@
             "section": "AFX",
             "type": "image",
             "path": "output/Netapp-AFX-Datasheet-DS-3466-0326_images/page_1_0.png",
-            "image_type": "decorative_image",
+            "image_type": "",
             "title": "",
-            "image_caption": "A stylized representation of NetApp storage systems.",
+            "image_caption": "",
             "diagram_summary": "",
-            "key_points": [
-                "Focus on NetApp branding.",
-                "Emphasizes storage solutions.",
-                "Suggests scalability and reliability.",
-                "Modern and sleek design aesthetic."
-            ]
+            "key_points": []
         },
         {
             "page": 3,
             "section": "AFX components",
             "type": "image",
             "path": "output/Netapp-AFX-Datasheet-DS-3466-0326_images/page_3_0.png",
-            "image_type": "diagram",
-            "title": "CLIENT DATA NETWORK: NFS, S3, SMB",
-            "image_caption": "A diagram illustrating the architecture of a client data network with NetApp storage systems and an AI data engine.",
-            "diagram_summary": "The diagram illustrates the architecture of a client data network, showing the flow of data from client systems (using NFS, S3, and SMB protocols) to NetApp storage systems. The data is then processed by an AI data engine, highlighting the integration of storage and AI technologies for efficient data management and analysis.",
-            "key_points": [
-                "Client systems connect to NetApp storage systems using NFS, S3, and SMB protocols.",
-                "Data is transferred from client systems to NetApp storage systems.",
-                "NetApp storage systems are depicted with varying levels of speed and latency.",
-                "The AI data engine processes the data from the NetApp storage systems.",
-                "The diagram emphasizes the seamless integration of storage and AI technologies."
-            ]
+            "image_type": "",
+            "title": "",
+            "image_caption": "",
+            "diagram_summary": "",
+            "key_points": []
         },
         {
             "page": 3,

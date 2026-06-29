@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 import Sidebar from "./components/Sidebar";
 import ChatPanel from "./components/ChatPanel";
-import RightPanel from "./components/RightPanel";
+// import RightPanel from "./components/RightPanel";
 
 import { useStore } from "./store/store";
 
@@ -51,7 +51,7 @@ export default function App() {
       </AnimatePresence>
 
       <ChatPanel />
-      <RightPanel />
+      {/* <RightPanel /> */}
 
       <Toaster
         theme={theme}

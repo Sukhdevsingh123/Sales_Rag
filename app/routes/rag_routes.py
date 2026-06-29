@@ -84,7 +84,7 @@ def ask(
     db: Session = Depends(get_db)
 ):
 
-    stream, sources = ask_question(
+    stream = ask_question(
         request.question
     )
 
@@ -99,12 +99,7 @@ def ask(
                 }) + "\n"
             )
 
-        yield (
-            json.dumps({
-                "type": "sources",
-                "sources": sources
-            }) + "\n"
-        )
+        
 
         yield (
             json.dumps({

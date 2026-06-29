@@ -59,10 +59,5 @@ def ask_question(
 
         })
 
-    # return {
-
-    #     "answer": answer,
-
-    #     "sources": sources
-    # }
-    return answer, sources
+    return answer     
+    # return answer, sources

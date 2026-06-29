@@ -13,6 +13,8 @@ tabulate
 sentence-transformers
 pinecone
 langchain-ollama
+langchain-huggingface
+langchain-pinecone
 
 
 

@@ -75,6 +75,7 @@ router = APIRouter(
 
 class AskRequest(BaseModel):
     question: str
+    conversation_id: str
 
 
 @router.post("/ask")
@@ -85,7 +86,9 @@ def ask(
 ):
 
     stream = ask_question(
-        request.question
+        question=request.question,
+        user_id=current_user.id,
+        conversation_id=request.conversation_id,
     )
 
     def generator():

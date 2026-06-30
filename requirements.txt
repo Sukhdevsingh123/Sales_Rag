@@ -17,6 +17,11 @@ langchain-huggingface
 langchain-pinecone
 
 
+langgraph
+langgraph-checkpoint-postgres
+ psycopg[binary]
+
+
 
 sqlalchemy
 psycopg2-binary
